@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  q3:
+    image: ${DOCKER_REGISTRY}q3
+    build:
+      context: .\Q3
+      dockerfile: Dockerfile

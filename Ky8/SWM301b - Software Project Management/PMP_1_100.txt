@@ -1,0 +1,703 @@
+What is the free float for Activity C?
+A.3 days
+B.4 days
+C.5 days
+D.6 days
+Ans: B
+
+Your manager has asked you to include the Human Resource Management Plan and the Schedule Management Plan in your Project Management Plan. Is this the appropriate place for these items?
+A.No, these are stand alone documents only.
+B.Yes, you should unquestioningly include anything your manager suggests.
+C.No, these documents should not be created until later in the project.
+D.Yes, include them in the Project Management Plan.
+Ans: D
+
+In a project that was yet to begin, many of the project team members were known in advance. This is called:
+A.Proactive-planning
+B.Skill-matching
+C.Pre-assignment
+D.Staffing-assignment
+Ans: C
+
+You are managing a project to design microprocessor control systems. The design work was estimated to complete in 3.5 months, with seven milestones. The sixth milestone is the prototype to be handed over to manufacturing. All milestones before prototyping have been completed ahead of schedule with 6th one being delayed for 4 months as the prototype has been sent back several times, due to conflicts between departments. You are now planning to hold a meeting to review the design specifications, and handle conflicts between design and manufacturing. Who is at fault?
+A.The scheduler.
+B.The project manager.
+C.The manufacturer.
+D.The design engineer.
+Ans: B
+
+You are a PMP reviewing project files to help you write a lessons learned document on a software project you are finishing. Which of the following is not a part of a project file?
+A.Change management documentation
+B.Project calendars
+C.Project management plan
+D.Project deliverables
+Ans: D
+
+Vendor selection and management and documentation of lessons learned are tasks that fall under this process area:
+A.Procurement management
+B.Deliverable management
+C.Conduct Procurements
+D.Scope management
+Ans: C
+
+Which process group corresponds to the “act” component of the plan-do-check-act cycle?
+A.Executing
+B.Monitoring and Controlling
+C.Planning
+D.Initiating
+Ans: B
+
+Which of the following is not a valid instance of Risk Transference?
+A.Use of a Cost Reimbursable contract
+B.Warranties
+C.Fixed Price contracts
+D.Performance bonds
+Ans: A
+
+You have overheard two functional managers arguing about the impacts that your project will have on their departments. What is your best response?
+A.Do nothing.
+B.Analyze and report to each manager the impact your project will have on their departments in terms of time and resources required, and the relative enterprise priority of your project.
+C.Inform the managers that the project sponsors had already considered this impact when they decided to implement the project.
+D.Put in advance requests for resources from each department.
+Ans: B
+
+What is the shortest time possible to complete this project? (critical path)
+A.17 days
+B.18 days
+C.20 days
+D.22 days
+Ans: B
+
+Bill is the project manager of a software project that is originally estimated to complete in 12 months. 2 months into the project, it is discovered that the original estimating assumptions were fundamentally flawed. The Estimate at Completion (EAC) in such a project will be:
+A.EAC = AC + Bottom-up ETC
+B.EAC = BAC/CPI
+C.EAC = AC + [BAC – EV]/CPI
+D.EAC = AC + BAC – EV
+Ans: A
+
+Due to a tight project schedule, a project manager did not document lessons learned all through the project. However, at the end of the project, he finally documented the lessons learned. Your comment on this would be:
+A.This is ok. At a minimum, lessons learned should be documented at the end of the project.
+B.This is not ok. Lessons learned must be documented all through the project as well as at the end of the project.
+C.This is not ok. Lessons learned need to be documented all through the project and must not be done at the end of the project.
+D.This is correct. Lessons learned are intended to be documented only at the end of the project.
+Ans: A
+
+You are managing a highly complex drug manufacturing project and your sponsor is highly motivated and influential. You are optimistic about the outcome of the project, however, you are not sure about the project approval requirements that measure the success of the project. So, you would like to document the name of the person who signs off on the project, and the criteria that constitutes the success of the project. Which of the following documents should you use first to incorporate project approval requirements?
+A.The scope document
+B.The project charter
+C.The approval requirement plan
+D.The project management plan
+Ans: B
+
+While reviewing project procurement and accounting records for your project, you discover that there is a pattern of unauthorized expenses by a specific resource. These expenses are not within the scope of the project, and have been somewhat camouflaged within a number of large and complicated expense reports. What do you do?
+A.If the total expenses are less than 1% of the project budget, do nothing.
+B.Fire the resource.
+C.Notify the appropriate management immediately.
+D.Confront the resource.
+Ans: C
+
+Which of the following is NOT a valid statement regarding the critical path method?
+A.The early start and finish dates and late start and finish dates are calculated without factoring in resource limitations.
+B.A forward pass and backward pass are performed through the project network paths.
+C.The resulting late start and finish dates will be the project schedule baseline.
+D.The flexibility of the schedule is measured by the difference between early and late dates.
+Ans: C
+
+Which of the following is not an example of a work performance report?
+A.Status report
+B.Project charter
+C.Project update memo
+D.Project recommendations
+Ans: B
+
+Your project team works in two different buildings across the city. The team has been struggling to perform effectively and has a difficult time resolving problems. What would be the BEST team development technique to resolve this issue?
+A.Mediation
+B.Rewards
+C.Co-location
+D.Training
+Ans: C
+
+You have been asked by your project manager to help them create a chart that illustrates the project resources that will be working on each work package. What would be the best type of chart to use?
+A.Milestone chart
+B.RACI chart
+C.Project organization chart
+D.WBS
+Ans: B
+
+A project manager is trying to plan for a contingency reserve as part of the cost estimates for the project. Which of these would be an incorrect way to plan for contingency reserves?
+A.Start the project with a zero value for contingency reserve.
+B.Plan for contingency reserve as a fixed number.
+C.Plan for contingency reserve as a percentage of the estimated cost.
+D.Use quantitative analysis methods to arrive at the contingency reserve.
+Ans: A
+
+The most detailed level of the WBS is called the ____________.
+A.WBS element
+B.Work package
+C.Project scope
+D.Deliverable
+Ans: B
+
+You are managing an oil drilling project. With oil at $120 per barrel this could be a very lucrative project. However, there is a chance that the price of oil will drop below $80 per barrel, thus eliminating the profit in the project. This is an example of:
+A.Requirement
+B.Assumption
+C.Risk
+D.Constraint
+Ans: C
+
+During a weekly status meeting a team member suggests adding a component to the project. As the project manager, you indicate that all focus should be put on the current scope and don’t worry about any enhancements. Focusing on the current scope is an example of?
+A.Gold plating
+B.Scope verification
+C.Scope management
+D.Change control
+Ans: C
+
+Several of your resources report to another manager. You need them to participate in a series of project meetings over the next two weeks. How should you handle this?
+A.Send meeting invitations to the project resources.
+B.Provide a copy of the project charter to the other manager, showing that the resources on his team have been assigned to you for your project.
+C.Request in advance resource participation from the other manager and the resources and communicate information about the timing and duration of the project meetings.
+D.Shortly before each meeting, inform the other manager that his staff is required for your project meeting.
+Ans: C
+
+A manager asked to see a list of milestones in the project. This would be available as an output from the:
+A.Sequence Activities phase
+B.Define Scope phase
+C.Estimate Activity Durations
+D.Define Activities phase
+Ans: D
+
+Your project is nearing completion, but a previously unidentified risk has been discovered and it could significantly affect one of the project deliverables. What do you do?
+A.Transfer the risk.
+B.Develop a risk mitigation plan.
+C.Include the issue in the project risk log.
+D.Notify the project stakeholders immediately.
+Ans: D
+
+A seller organization was executing work for a project under a contract. During the course of the project, a number of disputes arose over the scope and quality of work. Which of the following is the preferred method of resolving these claims?
+A.Alternative dispute resolution (ADR)
+B.Claims court
+C.Appeals court
+D.Negotiation
+Ans: D
+
+Which of the following is NOT considered a method in the Manage Communications process?
+A.Change control systems
+B.Communication technology
+C.Performance reporting
+D.Information management systems
+Ans: A
+
+As an external vendor, you are managing a complex software project that has been contracted on Time &amp; Material (T&amp;M). One of your team-members reports a break-through in automating some of the testing activities. This will potentially result in cost savings to the project as well as the project getting completed ahead of schedule by a month. Which of the following actions would you take?
+A.This is confidential information within your project team and need not be shared with the customer. The savings will be additional profits on the project.
+B.Communicate the current status and inform the customer that you will be incorporating some additional features to use up the savings in cost and time since it has been budgeted for.
+C.Communicate the current status to the customer and indicate the potential changes to cost and schedule.
+D.Communicate the savings in cost and time to the customer. At the end of the project, notify your billing department that they need to prepare an invoice for 50% of the cost being saved.
+Ans: C
+
+Acceptance is a strategy adopted because it is not possible to eliminate all risks from a project. This strategy indicates that the project management team has decided not to change the project management plan to deal with a risk. What action does passive acceptance require?
+A.Passive acceptance is no longer adopted in projects and is a poor project management practice.
+B.Passive acceptance requires no action except to document the strategy and come up with a risk management strategy.
+C.Passive acceptance requires no action.
+D.Passive acceptance requires no action except to document the strategy, leaving the project team to deal with the risks as they occur.
+Ans: D
+
+A key project in an organization has been ignored due to high travel expenses associated with the movement of subject matter experts and other specialists across various project locations. Which of the following will permit such a project to be taken up in a cost-efficient manner?
+A.Management sign-off
+B.Negotiation
+C.Virtual teams
+D.Co-location
+Ans: C
+
+Bottom-up Cost estimating is typically motivated by the size and complexity of:
+A.The project management software
+B.The statistical relationship between historical data and other variables
+C.The project budget.
+D.The individual schedule activity or work package
+Ans: D
+
+If you are developing a Project Management Plan, how should you determine the level of detail to be included in the plan?
+A.Always only provide a summary or high level plan
+B.Include only the details your manager specifically requested
+C.Always provide the maximum level of detail possible
+D.Provide the level of detail based on the project complexity and application area
+Ans: D
+
+__________ is performed on risks that have been prioritized by the Perform Qualitative Risk Analysis process as potentially and substantially impacting the project.
+A.Perform Risk Cost Analysis
+B.Perform Risk Exposure Analysis
+C.Perform Quantitative Risk Analysis
+D.Perform Risk Outcome Analysis
+Ans: C
+
+Stakeholder analysis is an important technique in the Identify Stakeholders process. One of the steps involved is to identify the potential impact of each stakeholder and classify them appropriately. Which of the following is not a valid model used for this purpose?
+A.Salience model
+B.Tolerance model
+C.Power / interest grid
+D.Influence / impact grid
+Ans: B
+
+You are the project manager for a project and have just entered the third year of a scheduled four year project. You need to evaluate new risks that have emerged since the project began. What should you perform to provide this information?
+A.Variance and trend analysis
+B.Process Improvement Plan
+C.Risk audit
+D.Risk re-assessment
+Ans: D
+
+Given multiple alternatives, the group decision method that allows the largest block in a group to decide (even if more than 50% of the members of the group do not support the decision) is called:
+A.Dictatorship
+B.Plurality
+C.Unanimity
+D.Majority
+Ans: B
+
+You are managing a project to design microprocessor control systems. The design work was estimated to complete in 3.5 months, with seven milestones. The sixth milestone is the prototype to be handed over to manufacturing. All milestones before prototyping have been completed ahead of schedule with 6th one being delayed for 4 months as the prototype has been sent back several times, due to conflicts between departments. You are now planning to hold a meeting to review the design specifications, and handle conflicts between design and manufacturing. Who is at fault?
+A.The scheduler.
+B.The project manager.
+C.The manufacturer.
+D.The design engineer.
+Ans: B
+
+Which option is NOT representative of the inputs, tools and techniques, and outputs of the Direct and Manage Project Work process?
+A.PMIS, Project Management Plan, and Deliverables
+B.Deliverables, Approved Change Requests, and Project Management Information System
+C.Approved Change Requests, Validated Changes, and PMIS
+D.Approved Change Requests, Project Management Plan, and Work Performance Data
+Ans: C
+
+A project manager estimated that a project would require 4375 person hours of effort. The project ended up using 6250 person hours of effort. The difference between these two figures is called a:
+A.Variance
+B.Control Limit
+C.Threshold
+D.Standard Deviation
+Ans: A
+
+How will an organization with a weak matrix organization structure affect the Plan Resource Management process?
+A.The project manager will have no authority on the project.
+B.The project manager will have a stronger role.
+C.The project manager will have a relatively weaker role.
+D.The project manager will have full authority.
+Ans: C
+
+Emily is engaged in the construction of three unique office buildings. Although construction sites are located in various places, she has been managing each team very efficiently to complete the work on time and within the budget. Which of the following statements describe the effort that Emily is doing?
+A.Construction of each building is an operational work because it is repetitive in nature
+B.The building construction is considered neither as a project nor as an operational work
+C.Construction of all three buildings is considered as one project
+D.Construction of each building is a project because each building is unique in nature
+Ans: D
+
+The project management team expects that during the course of the project, there could be delays in component delivery due to strikes, changes to the permitting processes or extensions of specific engineering durations. What analysis will help come up with contingency and response plans to mitigate these?
+A.Contingency analysis
+B.Variance analysis
+C.What-If scenario analysis.
+D.Schedule compression
+Ans: C
+
+A project team is participating in a brainstorming meeting for a project. The project is in the planning phase. The team is trying to determine the current and preferred project stakeholder engagement levels and analyzing the gaps between these two states. They are also discussing different approaches and strategies that can be adopted to close these gaps. This relates to which of the following processes?
+A.Develop project charter
+B.Monitor stakeholder engagement
+C.Identify stakeholders
+D.Plan stakeholder engagement
+Ans: D
+
+While the five process groups are typically completed in order, they often overlap with each other throughout the project. Which two process groups do not overlap unless a project is canceled?
+A.Initiating and Closing
+B.Initiating and Executing
+C.Initiating and Monitoring and Control
+D.Planning and Closing
+Ans: A
+
+Gary is a project manager wrapping up the construction of a new office building. He creates several documents during this process. Which of the following is not applicable to the Control Procurements process?
+A.Lessons learned documentation
+B.Formal written notice of acceptance of deliverables
+C.Closed contracts
+D.Project charter
+Ans: D
+
+All of the following are characteristics of a project, EXCEPT:
+A.Has a definite beginning and end
+B.Temporary
+C.Progressively elaborated
+D.Ongoing Effort
+Ans: D
+
+You are the Project Manager for KT’s Lumber Yard. You are trying to forecast estimates for the last phase of the project you are currently working on. Based on the performance of the project to date, which formula can be used to estimate the total value of the project when completed assuming similar variances will not occur?
+A.ETC = (BAC – EV)/CPI
+B.SV = EV – PV
+C.CPI = EV/AC
+D.EAC = AC + BAC – EV
+Ans: D
+
+Project costs are estimated for all project activities and aggregated to establish a cost baseline. Which of the following statements about the cost baseline is NOT true?
+A.The project cost performance is measured against the cost baseline
+B.The cost baseline is an output of the determine budget process
+C.The cost baseline includes all authorized budgets including management reserves
+D.The cost baseline is in the form of an ‘S’ curve
+Ans: C
+
+The costs on a project are typically classified as direct and indirect costs. The cost of electric utilities for the office would be considered as:
+A.An indirect cost
+B.Appraisal cost
+C.A specific cost
+D.A direct cost
+Ans: A
+
+The requirements elicitation team has obtained a large number of ideas during sessions to gather product and project requirements. Which of the following techniques is best suited to have these ideas sorted into groups for review and analysis?
+A.Control chart
+B.Venn diagram
+C.Affinity diagram
+D.Brainstorming
+Ans: C
+
+Which of these precedence relationships is least commonly used in Precedence Diagramming Method?
+A.Start to Start
+B.Finish to Finish
+C.Finish to Start
+D.Start to Finish
+Ans: D
+
+A software vendor on your project is hoping to be awarded a contract providing software for another project at your company. You are not the manager of the other project. However, the vendor offers you tickets to an upcoming professional sports event if you will “put in a good word” for his company to vendor selection team of the other project. What do you do?
+A.Fire the vendor.
+B.Decline the tickets, but provide a recommendation for the vendor.
+C.Decline the tickets and notify appropriate management of the situation.
+D.Accept the tickets if company policy allows it, and provide a recommendation for that vendor to the other project team.
+Ans: C
+
+Terry is managing a healthcare software development project using state-of-the-art technology. Stakeholder management is very crucial for the success of this project. The stakeholder involvement and influence is significant on this project. During which of following project stages, stakeholder management will be the most challenging task for Terry?
+A.Early during the project execution
+B.Towards the end of the project execution
+C.Towards the closure of the project
+D.Halfway through the project execution
+Ans: A
+
+All of the following are tools of the Control Schedule process EXCEPT:
+A.Parametric estimating
+B.Modeling techniques
+C.Schedule compression
+D.Leads and lags
+Ans: A
+
+You are planning out the communications methods to use as part of stakeholder engagement. The most effective means for communicating and resolving issues with stakeholders is:
+A.Status reports.
+B.Electronic mail.
+C.Telephone calls.
+D.Face-to-face meetings
+Ans: D
+
+Sometimes the broader, more comprehensive summary activity is also referred to as:
+A.Critical Activity
+B.Hammock Activity
+C.Milestone
+D.Group Task
+Ans: B
+
+How can changes be made to a project management plan once it has been baselined by the project manager?
+A.By generating a change request and having it approved through the Perform Integrated Change Control process.
+B.This is typically done by using a version control system. The project manager creates a new version with the changes and baselines it as the new baseline.
+C.This is done by maintaining a revision history or log. The project manager documents the changes in detail and then baselines it.
+D.A project management plan cannot be changed once it has been baselined. An addendum has to be created to incorporate the changes.
+Ans: A
+
+Which strategy attempts to reduce the probability and/or the impact of a risk to the point where the risk can be accepted?
+A.Mitigation
+B.Avoidance
+C.Acceptance
+D.Transfer
+Ans: A
+
+Collect Requirements, Develop Schedule and Perform Qualitative Risk Analysis are all part of what process group?
+A.Planning
+B.Scope Planning
+C.Monitor and Controlling
+D.Executing
+Ans: A
+
+John has just been assigned as the project manager of a project to develop a complex product. The project is in the Define Scope phase. Which of these tools / techniques will not be used by John in this phase?
+A.Lateral thinking
+B.Process analysis
+C.Product breakdown
+D.Value engineering
+Ans: B
+
+The Project Managers have maximum authority in which type of organization?
+A.Weak Matrix
+B.Strong Matrix
+C.Functional
+D.Balanced Matrix
+Ans: B
+
+Which of the following enterprise environmental factors is not applicable to the Plan Resource Management process?
+A.Organizational culture and structure
+B.Existing human resources
+C.Personnel administration policies
+D.Lessons learned
+Ans: D
+
+While developing the project schedule, you find that the completion of a successor activity depends on the completion of its predecessor activity. What is this dependency called?
+A.Start-to-Finish
+B.Start-to-Start
+C.Finish-to-Start
+D.Finish-to-Finish
+Ans: D
+
+Risk identification checklists are usually developed based on historical information and knowledge accumulated from previous similar projects. Which of the following statements about risk identification checklists is wrong?
+A.It is impossible to build an exhaustive checklist.
+B.The lowest level of the Risk Breakdown Structure (RBS) cannot be used as a risk checklist
+C.Quick and simple risk checklists are the least effective ones.
+D.Risk checklists should be reviewed during project closure.
+Ans: B
+
+A large network hardware upgrade project was scheduled to take place over a weekend. During the course of the implementation, several previously unidentified dependencies for additional materials were discovered. The project manager gave approval for the tech staff doing the implementation procure with corporate credit cards several hundred dollars worth of additional equipment required to complete the implementation. However these additional expenses caused the project to exceed its budget. How should the project manager handle this?
+A.Ask the IT Director to cover those expenses from his budget.
+B.Advise the staff to submit expense reports for the purchases. Because the cost is relatively small, it can be categorized as miscellaneous purchases that are not associated with the project.
+C.Notify the project stakeholders immediately of the additional expenses incurred and follow project and or company procedures for budget variances.
+D.Do nothing- that’s what reserves are for.
+Ans: C
+
+Your company has temporarily assigned you to serve as a project manager at a company location outside your home country. While meeting with a vendor your first day on the job, you are presented with a gift. The corporate policy at the headquarters in your home country prohibits employees from accepting these types of gifts. However, as you are new to this location, you believe- but are not sure-that the local policy, as well as local custom may differ. How should you respond?
+A.Provide a gift of similar value to the vendor at your next meeting.
+B.Accept the gift but do not tell anyone.
+C.Respectfully tell the vendor you are not sure of corporate policy, and will need to ask your management before you can accept gifts of any size.
+D.Accept the gift this time, but ask your manager about the local policy afterwards.
+Ans: C
+
+A Project manager estimates the work to be accomplished in the near term in detail, at a low level of the Work Breakdown structure (WBS); while he estimates work far in the future as WBS components, that are at a relatively high level of the WBS. What is this technique called?
+A.Decomposition
+B.Rolling wave planning
+C.Scope Creep
+D.Earned value planning
+Ans: B
+
+The Manage Team process is part of what process group?
+A.Planning
+B.Executing
+C.Monitoring and Controlling
+D.Closing
+Ans: B
+
+What is the traditional way to display a reporting structure among project team members?
+A.Text-oriented role description
+B.Flowchart
+C.Hierarchical-type charts
+D.Matrix based responsibility chart
+Ans: C
+
+As part of the Define Scope process, a project manager documented the specific project assumptions associated with the project scope in the project scope statement. While reviewing this document, an experienced project manager pointed out that the project manager should also document:
+A.The date on which the assumption becomes invalid.
+B.The assigned responsibility for each of the assumptions.
+C.The potential impact of the assumptions if they proved to be false.
+D.An Assumption Management Plan.
+Ans: C
+
+You are in the Validate Scope process of your electronic goods manufacturing project. While reviewing some products, you have noticed that the tolerance for one product is 0.01% less than what was listed in the requirements documentation. This deviation may not be a problem for the customers and it may not negatively impact the operations. What is your best immediate action in such a situation?
+A.Notify the customers about thedeviation
+B.Change the project management plan to allow for small deviation
+C.Reject all products and restart the project
+D.Discuss with your team about the quality testing
+Ans: A
+
+What is the MAIN reason for controlling the project scope?
+A.To enable scope creep
+B.To prevent changes from affecting the project
+C.To ensure timely closure of the project.
+D.Preventing scope creep.
+Ans: D
+
+A project is contracted as a Time &amp; Material (T&amp;M) type of contract. The service provider initially estimates that the total effort involved would be about 1000 hours of effort. The project is contracted at a rate of US$ 75 per hour of effort. If the project ended up with 1200 hours of effort, what would the contract payout be.
+A.US$ 75,000
+B.US$ 90,000
+C.US$ 82,500
+D.US$ 120,000
+Ans: B
+
+You have identified a risk that will negatively affect your security project. You and your team have decided to use an older encryption technology because of the high risk associated with the new technology. What type of risk strategy are you using?
+A.Mitigation
+B.Exploitation
+C.Avoidance
+D.Transfer
+Ans: C
+
+The project management team performed activities such as measuring examining and verifying to determine whether work and deliverables met requirements and product acceptance criteria. Which of the following choices refers to a different set of activities than the ones just mentioned?
+A.Walkthroughs
+B.Prevention
+C.Inspection
+D.Reviews
+Ans: B
+
+Perform Integrated Change Control includes several configuration management activities. Which of the following is not part of Perform Integrated Change Control?
+A.Change request
+B.Configuration Verification
+C.Configuration Status Accounting
+D.Configuration Identification
+Ans: A
+
+A project manager needed to shorten a project schedule. He decided to apply crashing, a schedule compression technique. Which of the following activities would not be an example of crashing?
+A.Bringing in additional resources
+B.Reducing project scope
+C.Paying to expedite delivery activities
+D.Approving overtime
+Ans: B
+
+A project to construct a high-rise building is progressing very well. Stakeholders are proactive in identifying issues related to the quality of the structure, walls and floors. As a project manager, you are conducting meetings to clarify or resolve their issues. Although, you are committed to manage stakeholders concerns, you learned that some critical issues need to be deferred to the next phase of the project for resolution. What should you do in this situation?
+A.You must not defer any stakeholder issues but look for alternate methods
+B.You must escalate these issues to the sponsor for his advice
+C.You must work with stakeholders to defer those issues
+D.You must request the stakeholders to retract their issues
+Ans: C
+
+On a control chart, if six consecutive plot points are above the mean, then what can be established about the process?
+A.The process is out of control
+B.The process will be out of control after plotting the seventh point.
+C.The process is in control
+D.Nothing can be established
+Ans: D
+
+During the Plan Risk Management process, assigning ___________ will help you and the project team identify all important risks and work more effectively during the identification process.
+A.risk factors
+B.blame
+C.risk mitigation plans
+D.risk categories
+Ans: D
+
+Which of the following is an output of the Create WBS process?
+A.Scope baseline
+B.Project scope statement
+C.Decomposition
+D.Requirements documentation
+Ans: A
+
+Which of the following is a hierarchical representation of project risks?
+A.Risk Register
+B.Risk Mitigation
+C.Risk categories
+D.Risk Breakdown Structure
+Ans: D
+
+A project can be authorized by any of the following except:
+A.The project manager
+B.The PMO
+C.The sponsor
+D.The portfolio steering committee
+Ans: A
+
+Which term best describes the Identify Risks process?
+A.Finite
+B.Redundant
+C.Iterative
+D.Inconsequential
+Ans: C
+
+Sally’s project has got a huge number of key positive and negative stakeholders. It is very important to closely manage the influential negative stakeholders to ensure project’s success. Do the key positive stakeholders need to be managed as well?
+A.No; more attention needs to be given to the key negative stakeholders.
+B.The positive stakeholders need to be closely managed as well since stakeholders’ needs and expectations change over time.
+C.Project stakeholders should not be classified as positive and negative stakeholders.
+D.Yes; positive stakeholders should be more closely managed than the negative stakeholders.
+Ans: B
+
+You have recently joined the a new company as a project manager. While reviewing the procurement plans for a project you will be taking over, you see that the company is considering using one of the most expensive manufacturers to provide certain equipment required for the project. While working with your previous employer, you used a different supplier for the same equipment, and paid significantly less for the equipment. Without telling your boss, you call the supplier you worked with previously for a quote. Have you violated the rule of keeping the proprietary information confidential?
+A.Maybe. You need to talk to your boss first.
+B.No. There is no harm in sharing the information with your current employer, because you are no longer working for your old employer.
+C.Yes. The supply source is proprietary information and you should not contact the supplier.
+D.You have not violated any rule.
+Ans: D
+
+For any complex project, once the project stakeholders are identified, the next step is to classify these stakeholders based on their current and desired engagement levels. What is the benefit of classifying the project stakeholders?
+A.To help identify the project scope
+B.To help populate the stakeholder register
+C.To help define an approach strategy
+D.It is a mandatory step in stakeholder analysis
+Ans: C
+
+In a small office construction project, the following activities are scheduled in sequence.<br>
+i) Digging and pouring footings – 5 days<br>
+ii) Working on the slab and pouring – 3 days<br>
+iii) Framing the floor – 5 days<br>
+iv) Wall framing – 4 days<br>
+v) Roof framing – 6 days<br>
+vi) Insulation and drywall – 7 days<br>
+vii) Interior doors and trim – 3 days<br>
+viii) Hardware and fixtures – 2 days.
+Ans: C
+
+A complicated software project was authorized by a project sponsor. However, the users who were intended to use the product found it very difficult to articulate their requirements. What technique can be employed to elicit requirements for such a project?
+A.Job overlaying
+B.Hidden participant
+C.Job duplication
+D.Job shadowing
+Ans: D
+
+A fellow project manager is retiring and moving to the mountains, you will be taking over his project. Before he leaves he tells you the project is on schedule, but only because he has had to “put the hammer down” on his project team and push them relentlessly. Pushing the team to perform activities to accomplish project objectives is a part of:
+A.Direct and Manage Project Work
+B.Monitor and Control Project Work
+C.Control Quality
+D.Control Scope
+Ans: A
+
+As part of EVM, a project manager is calculating the to-complete performance index (TCPI) based on EAC. The data that he has is: the budget at completion for the project is $ 100,000, the earned value for the project is $ 25,000, the actual costs to date are 40,000 and the estimate at completion is $ 115,000. What is the TCPI that he will obtain?
+A.1.1
+B.0.9
+C.1
+D.0
+Ans: C
+
+A project manager used a control chart to determine whether a process was stable or not, and to determine if its performance was predictable. He determined the upper and lower specification limits based on the contractual requirements. A set of eighteen data points were taken. Of these, 8 consecutive data points were above the mean. What can you say about such a process?
+A.A process is considered as out of control if five consecutive data points are above or below the mean. Hence the process is out of control.
+B.A process is considered as out of control if six consecutive data points are above or below the mean. Hence the process is within control.
+C.A process is considered as being within control if less than half the data points are above or below the mean. Hence the process is within control.
+D.A process is considered as out of control if seven consecutive data points are above or below the mean. Hence the process is out of control.
+Ans: D
+
+As an experienced PMP, you have found that running a WBS meeting is tricky because you need to find a balance between decomposition and excessive decomposition. When items are excessively decomposed it leads all of the following, EXCEPT:
+A.It breaks the 100% rule.
+B.Inefficient use of resources
+C.Non productive management effort
+D.Decreased efficiency when performing work
+Ans: A
+
+A project manager determines that there are 15 communication channels in the project. The number of stakeholders in the project must then be:
+A.15 stakeholders
+B.6 stakeholders
+C.8 stakeholders
+D.105 stakeholders
+Ans: B
+
+A key project in an organization has been ignored due to high travel expenses associated with the movement of subject matter experts and other specialists across various project locations. Which of the following will permit such a project to be taken up in a cost-efficient manner?
+A.Management sign-off
+B.Negotiation
+C.Virtual teams
+D.Co-location
+Ans: C
+
+Two of your team members played the Mega Millions lottery and won! As much as they like working on your team, they have decided to retire. What plan should be updated?
+A.Retirement Plan
+B.Resource Availability Document
+C.Communications Plan
+D.Staffing Management Plan
+Ans: D
+
+A team of engineers is reviewing a scatter diagram to determine how the changes in two variables in a new type of automobile tire are related. The closer points on the diagram are to a diagonal line, ______________ .
+A.the more likely a control group will be required
+B.the more closely they are related
+C.the less likely they are to be related
+D.the less likely a control group will be required
+Ans: B
+
+Jane has recently finalized her project management plan and has also got it approved. She is managing a complex manufacturing process improvement project. The project stakeholders’ continuous support and commitment is an absolute must for the success of the project. Which of the following are the most crucial stakeholder management processes at this stage?
+A.Plan Stakeholder Engagement and Manage Stakeholder Engagement
+B.Identify Stakeholders and Plan Stakeholder Engagement
+C.Manage Stakeholder Engagement and Monitor Stakeholder Engagement
+D.Plan Stakeholder Engagement and Monitor Stakeholder Engagement
+Ans: C
+
+Select the best answer: Continuous process improvement reduces ___________ and ___________ , which allows processes to operate at increased levels of efficiency and effectiveness.
+A.Process and policy overhead.
+B.Departmental and organization processes
+C.Cost and scope
+D.Waste and non-value added activities.
+Ans: D
+
+A project is contracted as a Cost-Plus-Fixed-Fee (CPFF) type of contract with a fee of 10% of estimated costs. The estimated cost is US$ 50,000. If the project comes in at US$ 75,000 with no changes in project scope, what would be the total cost of the contract?
+A.US$ 55,000
+B.US$ 125,000
+C.US$ 75,000
+D.US$ 80,000
+Ans: D

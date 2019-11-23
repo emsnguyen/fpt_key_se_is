@@ -1,0 +1,7 @@
+C:\Users\lenovo\source\repos\Q3\WebApplication2\bin\WebApplication2.dll.config
+C:\Users\lenovo\source\repos\Q3\WebApplication2\bin\WebApplication2.dll
+C:\Users\lenovo\source\repos\Q3\WebApplication2\bin\WebApplication2.pdb
+C:\Users\lenovo\source\repos\Q3\WebApplication2\obj\Debug\WebApplication2.csprojAssemblyReference.cache
+C:\Users\lenovo\source\repos\Q3\WebApplication2\obj\Debug\WebApplication2.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\Q3\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\lenovo\source\repos\Q3\WebApplication2\obj\Debug\WebApplication2.pdb

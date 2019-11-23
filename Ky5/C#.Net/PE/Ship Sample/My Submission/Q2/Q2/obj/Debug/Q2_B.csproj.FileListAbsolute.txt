@@ -1,0 +1,9 @@
+C:\Users\lenovo\source\repos\Q2\Q2\obj\Debug\Q2_B.csprojAssemblyReference.cache
+C:\Users\lenovo\source\repos\Q2\Q2\obj\Debug\Q2.Form1.resources
+C:\Users\lenovo\source\repos\Q2\Q2\obj\Debug\Q2.Properties.Resources.resources
+C:\Users\lenovo\source\repos\Q2\Q2\obj\Debug\Q2_B.csproj.GenerateResource.cache
+C:\Users\lenovo\source\repos\Q2\Q2\obj\Debug\Q2_B.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\Q2\Q2\bin\Debug\Q2.exe
+C:\Users\lenovo\source\repos\Q2\Q2\bin\Debug\Q2.pdb
+C:\Users\lenovo\source\repos\Q2\Q2\obj\Debug\Q2.exe
+C:\Users\lenovo\source\repos\Q2\Q2\obj\Debug\Q2.pdb

@@ -1,0 +1,5 @@
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoADOdotNET\Entity\bin\Debug\Entity.dll
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoADOdotNET\Entity\bin\Debug\Entity.pdb
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoADOdotNET\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoADOdotNET\Entity\obj\Debug\Entity.dll
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoADOdotNET\Entity\obj\Debug\Entity.pdb

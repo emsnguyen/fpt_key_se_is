@@ -1,0 +1,10 @@
+C:\Users\lenovo\Downloads\C#.Net\PE\PRN292_SP17\My Submission\B\Q1\Q1\bin\Debug\Q1.exe.config
+C:\Users\lenovo\Downloads\C#.Net\PE\PRN292_SP17\My Submission\B\Q1\Q1\bin\Debug\Q1.exe
+C:\Users\lenovo\Downloads\C#.Net\PE\PRN292_SP17\My Submission\B\Q1\Q1\bin\Debug\Q1.pdb
+C:\Users\lenovo\Downloads\C#.Net\PE\PRN292_SP17\My Submission\B\Q1\Q1\obj\Debug\Q1.csprojAssemblyReference.cache
+C:\Users\lenovo\Downloads\C#.Net\PE\PRN292_SP17\My Submission\B\Q1\Q1\obj\Debug\Q1.Form1.resources
+C:\Users\lenovo\Downloads\C#.Net\PE\PRN292_SP17\My Submission\B\Q1\Q1\obj\Debug\Q1.Properties.Resources.resources
+C:\Users\lenovo\Downloads\C#.Net\PE\PRN292_SP17\My Submission\B\Q1\Q1\obj\Debug\Q1.csproj.GenerateResource.cache
+C:\Users\lenovo\Downloads\C#.Net\PE\PRN292_SP17\My Submission\B\Q1\Q1\obj\Debug\Q1.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Downloads\C#.Net\PE\PRN292_SP17\My Submission\B\Q1\Q1\obj\Debug\Q1.exe
+C:\Users\lenovo\Downloads\C#.Net\PE\PRN292_SP17\My Submission\B\Q1\Q1\obj\Debug\Q1.pdb

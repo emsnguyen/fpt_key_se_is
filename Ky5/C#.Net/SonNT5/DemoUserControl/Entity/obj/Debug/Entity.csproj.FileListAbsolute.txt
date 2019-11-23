@@ -1,0 +1,11 @@
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoUserControl\Entity\bin\Debug\Entity.dll
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoUserControl\Entity\bin\Debug\Entity.pdb
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoUserControl\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoUserControl\Entity\obj\Debug\Entity.dll
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoUserControl\Entity\obj\Debug\Entity.pdb
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoUserControl\Entity\bin\Debug\Entity.dll
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoUserControl\Entity\bin\Debug\Entity.pdb
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoUserControl\Entity\obj\Debug\Entity.csprojAssemblyReference.cache
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoUserControl\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoUserControl\Entity\obj\Debug\Entity.dll
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoUserControl\Entity\obj\Debug\Entity.pdb

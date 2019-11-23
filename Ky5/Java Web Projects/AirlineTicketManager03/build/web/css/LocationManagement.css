@@ -1,0 +1,46 @@
+table tr:first-child {
+    background-color: blue;
+    color: white;
+    margin-top: 5px;
+}
+.delete {
+    color: white;
+    background-color: red;
+    font-size: large;
+}
+.red {
+    color: red;
+}
+div.right {
+    float: right;
+    /*margin-right: 180px;*/
+}
+.main {
+    border: 1px solid black;
+}
+.wrapper {
+    display: grid;
+    grid-template-areas: "header header"
+        "sidebar main";
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: 100px 1fr;
+    grid-column-gap: 25px;
+    margin-top: 10px;
+}
+.sidebar {
+    grid-area: sidebar;
+    margin-right: -20px;
+}
+.main {
+    grid-area: main;
+}
+.header {
+    grid-area: header;
+}
+table {
+    width: 100%;
+    border: 0px;
+}
+a.add:visited {
+    color: blue;
+}

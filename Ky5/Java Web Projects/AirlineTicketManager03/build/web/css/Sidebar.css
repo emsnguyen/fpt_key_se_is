@@ -1,0 +1,12 @@
+.sidebar {
+    margin-top: 10px;
+    list-style: none;
+    color: red;
+    border: 1px solid black;
+}
+.sidebar a {
+    text-decoration: none !important;
+}
+.sidebar li {
+    margin: 10px;
+}

@@ -1,0 +1,16 @@
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoClockExample\FirstClient\bin\Debug\FirstClient.exe
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoClockExample\FirstClient\bin\Debug\FirstClient.pdb
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoClockExample\FirstClient\bin\Debug\FPTClock.dll
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoClockExample\FirstClient\bin\Debug\FPTClock.pdb
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoClockExample\FirstClient\obj\Debug\FirstClient.csprojResolveAssemblyReference.cache
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoClockExample\FirstClient\obj\Debug\FirstClient.exe
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoClockExample\FirstClient\obj\Debug\FirstClient.pdb
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoClockExample\FirstClient\bin\Debug\FirstClient.exe
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoClockExample\FirstClient\bin\Debug\FirstClient.pdb
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoClockExample\FirstClient\bin\Debug\FPTClock.dll
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoClockExample\FirstClient\bin\Debug\FPTClock.pdb
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoClockExample\FirstClient\obj\Debug\FirstClient.csprojAssemblyReference.cache
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoClockExample\FirstClient\obj\Debug\FirstClient.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoClockExample\FirstClient\obj\Debug\FirstClient.csproj.CopyComplete
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoClockExample\FirstClient\obj\Debug\FirstClient.exe
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoClockExample\FirstClient\obj\Debug\FirstClient.pdb

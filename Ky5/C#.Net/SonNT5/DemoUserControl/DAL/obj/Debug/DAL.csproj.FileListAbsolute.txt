@@ -1,0 +1,16 @@
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoUserControl\DAL\bin\Debug\DAL.dll
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoUserControl\DAL\bin\Debug\DAL.pdb
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoUserControl\DAL\bin\Debug\Entity.dll
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoUserControl\DAL\bin\Debug\Entity.pdb
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoUserControl\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoUserControl\DAL\obj\Debug\DAL.dll
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoUserControl\DAL\obj\Debug\DAL.pdb
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoUserControl\DAL\bin\Debug\DAL.dll
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoUserControl\DAL\bin\Debug\DAL.pdb
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoUserControl\DAL\bin\Debug\Entity.dll
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoUserControl\DAL\bin\Debug\Entity.pdb
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoUserControl\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoUserControl\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoUserControl\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoUserControl\DAL\obj\Debug\DAL.dll
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoUserControl\DAL\obj\Debug\DAL.pdb

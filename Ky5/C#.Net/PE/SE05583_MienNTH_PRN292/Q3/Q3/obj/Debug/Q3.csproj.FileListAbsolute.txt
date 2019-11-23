@@ -1,0 +1,10 @@
+C:\Users\lenovo\Downloads\C#.Net\PE\SE05583_MienNTH_PRN292\Q3\Q3\bin\Debug\Q3.exe.config
+C:\Users\lenovo\Downloads\C#.Net\PE\SE05583_MienNTH_PRN292\Q3\Q3\bin\Debug\Q3.exe
+C:\Users\lenovo\Downloads\C#.Net\PE\SE05583_MienNTH_PRN292\Q3\Q3\bin\Debug\Q3.pdb
+C:\Users\lenovo\Downloads\C#.Net\PE\SE05583_MienNTH_PRN292\Q3\Q3\obj\Debug\Q3.csprojAssemblyReference.cache
+C:\Users\lenovo\Downloads\C#.Net\PE\SE05583_MienNTH_PRN292\Q3\Q3\obj\Debug\Q3.Form1.resources
+C:\Users\lenovo\Downloads\C#.Net\PE\SE05583_MienNTH_PRN292\Q3\Q3\obj\Debug\Q3.Properties.Resources.resources
+C:\Users\lenovo\Downloads\C#.Net\PE\SE05583_MienNTH_PRN292\Q3\Q3\obj\Debug\Q3.csproj.GenerateResource.cache
+C:\Users\lenovo\Downloads\C#.Net\PE\SE05583_MienNTH_PRN292\Q3\Q3\obj\Debug\Q3.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Downloads\C#.Net\PE\SE05583_MienNTH_PRN292\Q3\Q3\obj\Debug\Q3.exe
+C:\Users\lenovo\Downloads\C#.Net\PE\SE05583_MienNTH_PRN292\Q3\Q3\obj\Debug\Q3.pdb

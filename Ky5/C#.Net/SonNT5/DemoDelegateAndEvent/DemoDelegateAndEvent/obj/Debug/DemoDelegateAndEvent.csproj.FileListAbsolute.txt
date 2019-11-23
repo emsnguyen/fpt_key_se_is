@@ -1,0 +1,11 @@
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoDelegateAndEvent\DemoDelegateAndEvent\bin\Debug\DemoDelegateAndEvent.exe
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoDelegateAndEvent\DemoDelegateAndEvent\bin\Debug\DemoDelegateAndEvent.pdb
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoDelegateAndEvent\DemoDelegateAndEvent\obj\Debug\DemoDelegateAndEvent.csprojResolveAssemblyReference.cache
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoDelegateAndEvent\DemoDelegateAndEvent\obj\Debug\DemoDelegateAndEvent.exe
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoDelegateAndEvent\DemoDelegateAndEvent\obj\Debug\DemoDelegateAndEvent.pdb
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoDelegateAndEvent\DemoDelegateAndEvent\bin\Debug\DemoDelegateAndEvent.exe
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoDelegateAndEvent\DemoDelegateAndEvent\bin\Debug\DemoDelegateAndEvent.pdb
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoDelegateAndEvent\DemoDelegateAndEvent\obj\Debug\DemoDelegateAndEvent.csprojAssemblyReference.cache
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoDelegateAndEvent\DemoDelegateAndEvent\obj\Debug\DemoDelegateAndEvent.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoDelegateAndEvent\DemoDelegateAndEvent\obj\Debug\DemoDelegateAndEvent.exe
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoDelegateAndEvent\DemoDelegateAndEvent\obj\Debug\DemoDelegateAndEvent.pdb

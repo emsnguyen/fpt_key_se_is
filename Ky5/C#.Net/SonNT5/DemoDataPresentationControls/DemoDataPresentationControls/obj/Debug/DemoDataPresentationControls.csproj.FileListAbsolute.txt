@@ -1,0 +1,8 @@
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoDataPresentationControls\DemoDataPresentationControls\bin\Debug\DemoDataPresentationControls.exe
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoDataPresentationControls\DemoDataPresentationControls\bin\Debug\DemoDataPresentationControls.pdb
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoDataPresentationControls\DemoDataPresentationControls\obj\Debug\DemoDataPresentationControls.csprojResolveAssemblyReference.cache
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoDataPresentationControls\DemoDataPresentationControls\obj\Debug\DemoDataPresentationControls.Form1.resources
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoDataPresentationControls\DemoDataPresentationControls\obj\Debug\DemoDataPresentationControls.Properties.Resources.resources
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoDataPresentationControls\DemoDataPresentationControls\obj\Debug\DemoDataPresentationControls.csproj.GenerateResource.Cache
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoDataPresentationControls\DemoDataPresentationControls\obj\Debug\DemoDataPresentationControls.exe
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoDataPresentationControls\DemoDataPresentationControls\obj\Debug\DemoDataPresentationControls.pdb

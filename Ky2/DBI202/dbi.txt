@@ -1,0 +1,749 @@
+# A ____ is a logically coherent collection of data with some inherent meaning, representing some aspect of real world and being designed, built and populated with data for a specific purpose  | Database 
+# A ____ is a relation name, together with the attributes of that relation. | schema
+# A ___ is a notation for describing the structure of the data in a database, along with the constraints on that data | data model
+#  A _____ is a language for defining data structures | DDL
+# Which statement is used to remove a relation named R? | DROP TABLE R;
+# What is another term for a row in a relational table? | Tuple
+# Given a relation R(A,B,C,D). Which of the followings is trivial?  | A->->BCD
+#  Let R(ABCD) be a relation with functional dependencies | AC
+# Suppose R is a relation with attributes A1, A2, A3, A4. The only key of R is {A1, A2}. So, how many super-keys do R have? | 4
+# Consider the following functional dependencies a,b -> c,d e,g,h -> f,j a,c -> b,d p,q -> r,s e,f,g -> h,i s -> t f,g -> j q -> u g,h -> i Which of the following best describes the relation R(e,f,g,h,i,j)? | R is in First Normal Form
+# The relation R(ABCD) has following FDs: { A -> B ; B -> A ; A -> D ; D -> B } | R is in 3NF
+# Given a R(A,B,C,D) with the following FDs: AB->D  BC->A  AD->B CD->B AD->C Choose a correct statement about R: | The FD set of R is not canonical and R is in BCNF
+# What is the difference between the 2NF and the 3NF? | 2NF deals with partial functional dependency, while 3NF deals with transitive functional dependency
+# What is "de-normalization"? | De-normalization means allowing redundancy in a table
+# What is the benefit of "de-normalization"? | The main benefit of de-normalization is improved performance with simplified data retrieval (this is done by reduction in the number of joins needed for data processing)
+# The key for a weak entity set E is ......... | Zero or more attributes of E and key attributes from supporting entity sets
+# A class in UML is similar to........... | An entity set in E/R model
+# A(n) _____ provides a means to analyze business requirements so as to standardize organizational vocabulary, enforce business rules, and ensure adequate data quality | Entity Relationship Diagram
+#  An association class in UML is similar to ______ in the ER model | attributes on a relationship
+# In UML, what is the difference between an aggregation and a composition? | In composition, when the owning object is destroyed, so are the contained objects. In aggregation, this is not necessarily true.
+# Which of the following is NOT a standard aggregation operator? | GROUP
+# Consider the law, that holds for set relations: T intersect(R union S) = (T intersect R) union (T intersect S) The above law still hold for bag relations? | False
+# Choose the correct statement: | Aggregate functions perform a calculation on a set of values and return a single value
+# Suppose the relation S(B,C,D) has tuples: B C D a 4 6 c 6 8 c 5 5 e 9 9 F 10 10 c 7 9 Compute the result of the following query:  SELECT SUM(D) FROM S WHERE D < 8 AND D > 5 Choose the row that appears in the computed result.  | 6 
+# Suppose the relation S(B,C,D) has tuples: B C D a 4 6 c 6 8 c 5 5 e 9 9 F 10 10 c 7 9 Compute the result of the following query:  SELECT D, SUM(C) FROM SGROUP BY D Choose rows that are appear in the computed result | (9,16)
+# Column A of a relation has the following list of values in the six rows of the table: NULL, NULL, 10, 10, 20, 30 In SQL Server, which of the following is the correct value of AVG(DISTINCT A)? | 20
+# The table Arc(x,y) currently has the following tuples (note that there are duplicates): (1,2), (1,2), (2,3), (3,4), (3,4), (4,1), (4,1), (4,1), (4,2). Compute the result of the query: SELECT a1.x, a2.y, COUNT(*) FROM Arc a1, Arc a2 WHERE a1.y = a2.x GROUP BY a1.x, a2.y; Which of the following tuples is in the result? | (3,1,2) 
+# How we can understand about this statement:  "All aggregate functions are deterministic"? | This means aggregate functions return the same value any time they are called by using a specific set of input values
+# When we apply set operators (UNION, INTERSECT, EXCEPT) to two relations R and S, which conditions on R and S must be satisfied? | All of the others
+# How many JOIN conditions are necessary to combine five tables based on common attributes? | 4
+# Suppose relation R(A,B) has the tuples: 10 x 30 y 50 z 70 t Compute the right outer join of R and S, where the condition is: R.B = S.B. Then identify 2 tuples of R that do not appear in the computed result. | (30,y) & (70,t)
+# For what values of x, y, and z, including NULL, does the Boolean expression x <= 4 OR NOT(y >= 2 AND z = 10) have the truth value FALSE? Identify one of those values from the list below | x = 5, y = 3, z = 10
+# What operator tests column for the absence of data? | IS NULL operator
+# What does NULL mean? | The value NULL means UNKNOWN
+# What is the value of the query: SELECT 'Nancy' + NULL + 'Smith' when evaluated on Microsoft SQL Server? | NULL
+# Which SQL keyword is used to sort the result-set? | ORDER BY
+# Three properties of a lock in DBMS are: a)Granularity: the size of the lock b) Granularity: the type of the lock c) Mode: the type of the lock d) Duration: the time in seconds that the DBMS waits for a lock to be released | (a) and (c) and (d) are true
+# A database transaction, by definition, must be ACID (atomic, consistent, isolated and durable). What does "Durable" mean? | "Durable" means that: Transactions that have committed will survive permanently
+# Suppose relation R(A,B). Choose the SQL statement that is equivalent to the following RA expression: | SELECT (A+B) AS C FROM R WHERE (A+B) > 10
+# What is the difference between the WHERE and HAVING SQL clauses? | The WHERE SQL clause condition(s) is applied to all rows in the result set before the HAVING clause is applied (if present). The HAVING clause is used only with SELECT SQL statements and specifies a search condition for an aggregate or a group
+# Choose the correct statement. | All of the others.
+# Suppose R and S are 2 relations. R is the parent of S. And the relationship between R and S is set to "ON DELETE CASCADE". This means that: | We can delete a row from R although that row has children in S (and in this case, all the children will be deleted too)
+# To create a DEFAULT constraint on the "City" column of the table PERSON which is already created, use the following SQL: | ALTER TABLE Person ALTER COLUMN City SET DEFAULT 'SANDNES'
+# Three basic types of database integrity constraints are: (a)Entity integrity (b) Domain integrity (c) Referential integrity (d) Primary key integrity | (a) and (b) and (c) are true
+# A(an) _____ asserts that a value appearing in one relation must also appear in the primary-key component(s) of another relation | Foreign key constraint
+# What is difference between PRIMARY KEY and UNIQUE KEY ? | A table can have more than one UNIQUE KEY constraint but only one PRIMARY KEY
+# A/An _____ is a data structure that makes it efficient to find those tuples that have a fixed value for an attribute | Index
+# Select the most correct answer | All of the others.
+# ___ allow the database application to find data fast, without reading the whole table | Indexes
+# What are the drawbacks of indexes? (a)Indexes require more disk space (b) Indexes make UPDATE, INSERT, DELETE statement slower (c)Indexes have no any drawback (d) Indexes make SELECT statement slower | (a) and (b) are true
+# Well-designed ____ can reduce disk I/O operations and consume fewer system resources therefore improving query performance | Indexes
+# Which of the following statements is the most correct? | All of the others
+# The benefits of stored procedures are: (a)They improve the security by letting the admin to LIMIT the access rights of users (b) They can save a lot of storage space (c) They can be reused many times (d) They can store a part of the database in order to retrieve the data more quickly | (a) and (c) are true
+# Select the right statement to declare MovieStar to be a relation whose tuples are of type StarType. Note: StarType is a user-defined type that has its definition as follows: CREATE TYPE StarType AS (name CHAR(30), address CHAR(100) ); | CREATE TABLE MovieStar OF StarType ();
+# A ____ table is a table that is embedded within another table | Nested
+# A database of _____ data model is a collection of nodes, each node is either a leaf or interior | semi-structured
+# A _____ specifies which characters are "less than" which other characters | Collation
+# A ____ is a powerful tool for creating and managing large amounts of data efficiently and allowing it to persist over long periods of time, safely | DBMS
+# What is the hierarchical data model? | A hierarchical data model is a data model in which the data is organized into a tree-like structure
+# In _____ Data Model, the data and relations between them are organized in tables | Relational
+# Why the intersection operator is not called a primitive relational algebra operator? | Because the intersection operator can be expressed through the union operator and the difference operator
+# In SQL , the command/statement that let you add an attribute to a relation schema is ....... | Alter
+# To update a relation's schema, which one of the following statements can be used? | ALTER TABLE
+# Schema-altering commands are known as _________ commands. | Data Definition Language
+# A ___ is a notation for describing the structure of the data in a database, along with the constraints on that data | data model
+# Which one of the following is NOT a DML command? | ALTER TABLE
+# Given a relation R(A,B,C,D). Which of the followings is trivial? | A->->BCD
+# What is a functional dependency? | A functional dependency (A->B) occurs when the attribute A uniquely determines B
+# Suppose R is a relation with attributes A1, A2, A3, A4. The only key of R is {A1, A2}. So, how many super-keys do R have? | 4
+# What is a key attribute in a relation? | A key attribute is an attribute that belongs to one of the keys of the relation
+# Which of the following relations is in Boyce-Codd Normal Form (BCNF)? | R(ABCD) with FD's: BD -> C ; AB -> D ; AC -> B ; BD -> A
+# 3NFconcept is related to (choose 1 answer only): | All of the others
+# The relation R(ABCD) has following FDs: {ACD -> B ; AC -> D ; D -> C ; AC -> B} Choose the correct statement about R: | R is in 3NF
+# Let R(A,B,C,D) with the following FDs: {AB->C, AC->B, AD->C} Choose a correct statement about R: | R is in 2NF
+# Which of the following statements is correct? | For any relation schema, there is a dependency-preserving decomposition into 3NF
+# How to eliminate anomalies when we design a database? | We should decompose relation to eliminate anomalies
+# What is the goal of decomposition when designing a database? | The goal of decomposition is to replace a relation by several relations that do not exhibit anomalies
+# In UML, what is the difference between an aggregation and a composition? | In composition, when the owning object is destroyed, so are the contained objects. In aggregation, this is not necessarily true.
+# Consider the following statement: "Entity Sets and their attributes should reflect the reality" That above statement describes which principle? | Faithfulness principle
+# Look at the following statements: (a)We should pick the right kind of elements (b) When an entity has no non-primary key attribute, we should convert that entity to an attribute (c) Use weak entities when-ever possible (d) Always make redundancies | (a) and (b) are correct
+# The ER Diagram uses three principle element types: | Entity sets, Attributes, and Relationships
+# The binary relationship between classes in UML is called ... | Association
+# Consider the Datalog rule H(x,y) <- S(x, y) AND x > 2 AND y < 6. Relation S(x, y) has 3 tuples (2, 3), (3, 5), and (4, 6). What is about H? | H has a tuple (3, 5)
+# Consider the law, that holds for set relations: (S intersect T) - R = S intersect (T - R). The above law still hold for bag relations? | F
+# Suppose that tuple t appears, respectively, x, y, and z times in the relations X, Y, and Z. Let t appear w times in the relation: X union (Y intersect Z). Which of the following inequalities is true ? | w <= x+y
+# Consider the law, that holds for set relations: T intersect(R union S) = (T intersect R) union (T intersect S) The above law still hold for bag relations? | F
+# x The table Arc(x,y) currently has the following tuples (note there are duplicates): Compute the result of the query: SELECT x, COUNT(y) FROM Arc GROUP BY x; Which of the following tuples is in the result | (4,4)
+# Given the relation Employee(SSN, FNAME, LNAME, SALARY, DepartmentNo). Select the right query below to count the number of employees in each department. | SELECT DepartmentNo, COUNT(*) FROM Employee GROUP BY DepartmentNo
+# SELECT SUM(C), SUM(D) FROM S WHERE D < 9 AND D > 5 | (10,14)
+# SELECT B, SUM(C) FROM S GROUP BY B | (c,18)
+# When we apply set operators (UNION, INTERSECT, EXCEPT) to two relations R and S, which conditions on R and S must be satisfied?  | All of the others
+# 1 4 2 5 8 6 4 7 SELECT A, B, C, D FROM R RIGHT OUTER JOIN S ON R.A = S.C Identify, in the list below, 2 rows that appears in the result. | (null, null, 0, 1), (null, null, 5, 8)
+# 1 4 2 5 3 6 4 7 SELECT A, B, C, D FROM R LEFT OUTER JOIN S ON R.A = S.C Identify, in the list below, the row that appears in the result. | (4, 7, null, null)
+# A tuple which fails to participate in a join is called: | dangling tuple
+# (TRUE OR NULL) return: | TRUE
+# Choose one correct statement: | Comparisons between two null values, or between a NULL and any other value, return unknown
+# For what values of x, y, and z, including NULL, does the Boolean expression x <= 100 AND NOT(y >= 15 OR z = 35) have the truth value UNKNOWN? Identify one of those values from the list below. | x = NULL, y = 0, z = 4.
+# Choose one correct statement: | No two null values are equal
+# A database transaction, by definition, must be ACID (atomic, consistent, isolated and durable). What does "Isolated" mean? | "Isolated" means that: how/when the changes made by one operation in one transaction become visible to other concurrent operations in other transactions
+# What one is a wildcard used for pattern matching? | "%" (for multi-character substitution)
+# Which is the result of the query: SELECT SUM(B) FROM R WHERE C > 10 | NULL
+# Choose the most correct statement about PRIMARY KEY: | All of the others
+# Foreign key constraints are created by using "_____" keyword to refer to the primary key of another table | REFERENCES
+# A database ____ is a data structure that improves the speed of data retrieval operations on a database table at the cost of slower writing and increased storage space | Index
+# The most useful index on a relation is an index on its key. This is because: | The search operation based on the primary key is commonly used.
+# The SQL operations that are performed while a connection is active form a ____ | Session
+# In PSM, the difference between a stored procedure and a function is that: | A function has the return statement.
+# The aim for the Object-relational database is to bridge the gap between conceptual data modelling techniques such as Entity-relationship diagram (ERD) and object-relational mapping (ORM), which often use classes and inheritance, and relational databases, which do not directly support them | T
+#  ______ is a set of markup declarations that define a document type for SGML-family markup languages (SGML, XML, HTML) | Document Type Definition
+# A ____ document defines the XML document structure with a list of legal elements and attributes | DTD
+# A _____ specifies which characters are "less than" which other characters | Collation
+# A ____ is the framework under which data may exist and SQL operations on data may be executed | SQL Environment
+# What is a graph database? | A graph database is a database that uses graph structures with nodes, edges and properties to represent and store information
+# What is a database? | A database is a collection of information that is organized so that it can easily be accessed, managed, and updated
+#  A ____ is a powerful tool for creating and managing large amounts of data efficiently and allowing it to persist over long periods of time, safely  | DBMS
+# A ______ is a collection of programs that enables user to create and maintain databases. In other words, it is general-purpose software that provides the users with the processes of defining, constructing and manipulating the databases for various applications | DBMS
+# Today, the two important data models are: | The relational data model (including object-relational extensions) and the semi-structured data model (including XML and related standards)
+# Today, in a modern DBMS, the queries are parsed and optimized by | query compiler
+# A ____ is a logically coherent collection of data with some inherent meaning, representing some aspect of real world and being designed, built and populated with data for a specific purpose | Database
+# What is the hierarchical data model? | A hierarchical data model is a data model in which the data is organized into a tree-like structure
+# A person who is responsible for the structure or schema of the database is called: | a database administrator
+# A database administrator (DBA) is a person that is also known by the title: | Database Coordinator or Database Programmer
+# A ___ is a notation for describing the structure of the data in a database, along with the constraints on that data | data model
+# Data Definition language (DDL) is used to .... | declare database schemas
+# Which is the subset of SQL commands used to manipulate Database structures, including tables? | DDL (Data Definition Language)
+# Which of the followings is part of data model? | All of the others
+# "R(A,B,C,D)" is an example of: | A schema
+# Which statement is used to remove a column named D from the relation R? | ALTER TABLE R DROP COLUMN D;
+# What is a primary key? | A primary key is the field(s) in a table that uniquely defines the row in the table
+# A ____ is a relation name, together with the attributes of that relation. | schema
+# Which statement is used to add a column named D into the relation R? | ALTER TABLE R ADD D [DataType];
+# Which one of the following is NOT a DML command? | GRANT
+# What is another term for a row in a relational table? | Tuple
+# The relational operator that adds all possible pairs of rows from two tables is known as the .... operator. | product
+# Let R(ABCDEFGH) satisfies the following functional dependencies: A -> B, CH -> A, B -> E, BD -> C, EG -> H, DE -> F. Which of the following FDs is also guaranteed to be satisfied by R? | ADG -> CH
+# What is a functional dependency? | A functional dependency (A->B) occurs when the attribute A uniquely determines B
+# Consider a relation with schema R(A, B, C, D) and FD's BC -> D, D -> A, A -> B. Which of the following is the key of R? | BC
+# Given the relation schema R(A,B,C) and functional dependencies F = {AB-> C, B->A, C->B}. Which attribute(s) is/are prime? | B and C
+# Given the relation R(ABCDE) with the following FD's: D -> C, CE ->A, D ->A, and AE ->D Which of the following attribute set is a key? | ABE
+# Suppose R is a relation with attributes A1, A2, A3, A4. The only key of R is {A1, A2}. So, how many super-keys do R have? | 4
+# A set of attributes forms a ____ for a relation if we do not allow 2-tuples in a relation instance to have the same values in all that attributes | Key
+# The relation R(ABCD) has following FDs: { AB -> C ; ABD -> C ; ABC -> D ; AC -> D} Choose a correct statement about R? | R is in 3NF
+# Which of the following statements is true? | All of the others.
+# Normalization is a process of analyzing the given relation schema based on their Functional Dependencies (FDs) and primary keys to achieve the following: | All of the others
+# What is the benefit of "de-normalization"? | The main benefit of de-normalization is improved performance with simplified data retrieval (this is done by reduction in the number of joins needed for data processing)
+# How to eliminate anomalies when we design a database? | We should decompose relation to eliminate anomalies
+# Look at the following statements: (a) For any relation schema, there is a dependency-preserving decomposition into 3NF (b) For any relation schema, there is not dependency-preserving decomposition into 3NF (c) For any relation schema, there is dependency-preserving decomposition into BCNF (d) For some relation schema, there is not dependency-preserving decomposition into BCNF | (a) and (d) are true
+# (a)All relations in 3NF are also in 2NF (b)All relations in 2NF are also in 1NF (c)All relations in 1NF are also in BCNF (d)All relations in 1NF are also in 3NF | (a) and (b) are true
+# What is "normalization"? | Normalizing data means eliminating redundant information from a table and organizing the data so that future changes to the table are easier
+# Which of the following are guidelines for designing the relational schema ? | All of the others
+# Regardless of whatever any other transaction is doing, a transaction must be able to continue with the exact same data set it started with. The above describes which property of a transaction? | Isolation
+# Pay attention into the following query: SELECT * FROM R WHERE A LIKE '%a%'; So, in the above case, the wildcard % represents what? | % (percent sign) represents zero, one, or more character
+# With SQL, how do you select all the records from a table named "Persons" where the value of the column "FirstName" starts with an "a"? | SELECT * FROM Persons WHERE FirstName LIKE 'a%'
+# What does the keyword ESCAPE mean? | The keyword ESCAPE is used to match any string that contains the characters "%" or "_"
+# The SQL BETWEEN operator: | Specifies a range to test.
+# Referential integrity Constraints control relationships between .... | tables in a database
+# Database integrity ensures that: | data entered into the database is accurate, valid, and consistent
+# Foreign key constraints are created by using "_____" keyword to refer to the primary key of another table | REFERENCES
+# What is difference between PRIMARY KEY and UNIQUE KEY ? | A table can have more than one UNIQUE KEY constraint but only one PRIMARY KEY
+# To drop a DEFAULT constraint, use the following SQL: | ALTER TABLE Persons ALTER COLUMN City DROP DEFAULT
+# What is a view?  | A view is a virtual table which results of executing a pre-compiled query. A view is not a part of the physical database schema, while the regular tables are.
+# What structure can you implement for the database to speed up table reads?  | indexes
+# Often, a DBMS allows us to build a single index on ____ attribute(s) (choose the most correct answer) | only one
+# Suppose an updatable view ParamountMovies is associated with Movies relation. Choose a correct answer. | An update on ParamountMovies is translated into Movies
+# The SQL operations that are performed while a connection is active form a ____ | Session
+# In PSM, the difference between a stored procedure and a function is that: | A function has the return statement.
+# In UML, a _____ between classes is called an association | binary relationship 
+# When an entity is called "weak"?  (a) When it is used to represent weak objects, such as patients, elders (b) When all of its attributes can not identify itself (c) When It always needs support from other entity (d) When It is not really necessary in the ERD | (b) and (c) are correct 
+# "When drawing ERD, if an entity has no non-key attribute and it is the 'one' in many-one relationship, then we should set it to the attribute of other entities" That above statement describes which principle? | Picking the right kind of element principle 
+# When drawing an ERD: (a)Entity sets and their attributes should reflect reality (b)Redundancy is not important, so we can ignore it (c) Avoid introducing more elements into the design than is absolutely necessary (d) Choosing the right relationships | (a) and (c) and (d) are correct 
+# A weak entity | does not have enough key attribute(s) 
+# SELECT A, F, SUM(C), SUM(D) FROM R, S, T WHERE B = C AND D = E GROUP BY A, F HAVING COUNT(*) > 1 Identify, in the list below, the row that appears in the result. | (1,1,2,2) 
+# Choose the correct statement | Except for COUNT, aggregate functions ignore null values 
+# What is the difference between Where and Having Clause? | WHERE is for Rows and HAVING is for Groups 
+# Which tuple is contained in the result of the following query: SELECT a, COUNT(DISTINCT B) FROM R GROUP BY a HAVING SUM(B) >3; | (2,3) 
+# What does the following SQL statement do: SELECT Customer, COUNT(Order) FROM Sales GROUP BY Customer HAVING COUNT(Order) > 5 | Selects all customers from table Sales that have made more than 5 orders. 
+# The relation R(A,B) may have duplicate tuples. Choose the query that create non-duplicated results, regardless of what tuples R contains? | SELECT A, B FROM R GROUP BY A, B 
+# Which is the result when we execute the following query: SELECT * FROM R UNION SELECT * FROM S | There is an error a
+# What is a "join"? | 'join' used to connect two or more tables logically with or without common field(s)
+# When join R and S, we want to display all the records in R we must use: | LEFT OUTER JOIN a
+# Given relations R(A,B) and S(B,C,D). The result of natural join of the relations R and S has  | Attributes A, B, C, D 
+# Relation R(x,y) currently consists of only one tuple (NULL, NULL). Which of the following queries will produce a nonempty output? That is, at least one tuple will be produced, although the tuple(s) may have NULL's. | SELECT * FROM R WHERE x IS NULL 
+# What operator tests column for the absence of data? | IS NULL operator 
+# (TRUE AND NULL) returns: ??? | NULL 
+# Choose one correct statement: | Comparisons between two null values, or between a NULL and any other value, return unknown 
+# A database transaction, by definition, must be ACID (atomic, consistent, isolated and durable). What does "Durable" mean? | "Durable" means that: Transactions that have committed will survive permanently 
+# A database transaction, by definition, must be ACID (atomic, consistent, isolated and durable). What does "Isolated" mean?  | "Isolated" means that: how/when the changes made by one operation in one transaction become visible to other concurrent operations in other transactions
+# Choose the in-correct statement: |  When the sequence of tasks is complete, the SAVE POINT closes the transaction
+# In order to modify or delete an existing constraint, it is necessary that: | the constraint has a name
+# ARTISTS Airtist_id Airtist_Name 1 Bono 2 Cher ALBUM artist_id Album_name | The above picture is an example of a database that has not enforced entity integrity
+# The IN SQL keyword | Determines if a value any of the values in a list or a sub-query
+# Schema-altering commands are known asÖÖcommands. | Data Definition Language
+# Referential integrity Constraints control relationships between _. | tables in a database
+# Given the relation Employee(SSN. FNAME. LNAME. SALARY). Select the right query below to find the employee(s) who has the lowest salary in the company | SELECT LNAME. FNAME. SALARY FROM Employee WHERE SALARY IN (SELECT MIN(SALARY) FROM Employee)
+# Given a relation R(A.B.C.D). Which of the followings is trivial? | A->->BCD
+# Which of the following is NOT a standard aggregation operator? | GROUP
+# Which of the followings is true? | The Entity Relationship (ER) model represents the structure of data graphically
+# In the three-tier architecture, the database tier's function is to | Execute queries that are requested from the application tier.
+# Exception handler in PSM is defined as follows: DECLARE <where to go next> HANDLER FOR condition list> <statement> The <where to go next> clause can be: | All of the others
+# In SQL language, the command/statement that let you add an attribute to a relation is_ | Alter
+# Consider the Dalalog rule H(xy) <- Sfx. y) AND x > 2 AND y < 6. Relation S(x y) has 3 tuples (2.3). (3.5). and (4.6). What is about H? | H has a tuple (3.5)
+# Select the valid query to declare the foreign key presC# of the relation Studiolname. address. presC#) that references the cert of the relation MovieExeclname. address. cert#. netWorth): | CREATE TABLE Studio (name CHAR(30) PRIMARY KEY. address VARCHAR(256). presC# INT REFERENCES Movie Exec (cert#));
+# The relational operator that yields all possible pairs of rows from two tables is known as a _ | product
+# Consider a relation with schema R(A, B, CD) and FD's BC-> D, D-> A, A-> B. Which of the following is the key of R? | BC
+# The ER Diagram uses three principle element types: | Entity sets. Attributes, and Relationships
+# In PSM. the difference between 3 stored procedure and a function is that | All of the others
+# Selecl Ihe right syntax for HAVING clause in SOL | SELECT <list of attributes> FROM <list of tables> WHERE <conditions on tuples> GROUP BY <list of attributes> HAVING <conditions on groups>
+# Given relations R(A.B) and S(B.C.D). The result of natural join of the relations R and S has | Attributes A B. C. D
+# Given relation U(A, B, C) that has 2 tuples (1,2,3) and (4,5,6), and relation V(B(C, D) that has 2 tuples (2,3,10) and (2,3,11). Choose the right answer below; | The outer join of U and V is the relation R(A. B. C. D) that has 3 tuples (1.2.3.10) .(1.2.3.11) and (4.5.6. NULL).
+# Data Definition language (DDL) is used to _ | declare database schemas
+# The result of (UNKNOWN OR TRUE) is | True
+# Choose a right answer | An authorization ID may be granted privileges from others or may grve its privileges to others
+# Which of following is never used as a data model' | None of the others
+# In Java Database Connectivity (JDBC). before we can execute SQL statements), we need to _ | Establish a connection to the database and create statement(s).
+# Select the right statement to declare MovieStar to be a relation whose tuples are of type StarType. Note; StarType is a user-defined type that has its definition as follows; CREATE TYPE StarType AS (nameCHAR(30). address CHAR(IOO) }; | CREATE TABLE MovieStar OF StarType Q;
+# Suppose an updatable view ParamountMovies is associated with Movies relation. Choose a nght answer | Drop Movies relation also delete the view ParamountMovies
+# Which of the following statements is true? | 4NF implies BCNF and BCNF implies 3NF
+# The most useful index on a relation is an index on its key. This is because | The search operation based on the primary key is commonly used.
+# The binary relationship between classes in UML is called - | Association
+# Given the relation Movies(title, year, length, genre. studioName). Select the right query to create a View with the titles and studio names of all movies that were produced in 1980 | CREATE VIEW OldMovies AS SELECT title. studioName FROM Movies WHERE year=1980
+# Given the relation Employee(SSN. FNAME. LNAME. SALARY. DepartmentNo). Select the right query below to count the number of employees in each department | SELECT DepartmentNo. COUNT(*) FROM Employee GROUP BY DepartmentNo
+# Consider a relation with schema R(A, B. C. D) and FD's A-> B. A-> C. C -> D. Which ofthe following is the {A}+ ? | {A B C D}
+# To create a constraint (for example, referential integrity constraint) on a relation, the owner ofthe schema must have | REFERENCES privilege
+# Choose a wrong answer. | Relational algebra can express recursion
+# In DTD. the main difference between PCDATA and CDATA is | PCDATA is text that will be parsed by a parser and tags inside the text will be treated as markup and entities will be expanded CDATA is text that will NOT be parsed by a parser and tags inside the text wil. NOT be treated as markup and entities will not be expanded.
+# _______authorizes access to database, coordinate, monitor its use, acquiring software, and hardware resources. | Database administrator 
+# The key for a weak entity set E is_ | Zero or more attributes of E and key attributes from supporting entity sets
+# Choose the right statement | When the trigger is awakened, it tests a condition. If the condition is satisfied, the action associated with the trigger is executed.
+# Four characteristics of transactions are | Atomicity. Isolation. Consistency. Durability
+# Choose the right statement to grant the INSERT and SELECT privileges on table Movies to users torn' and jerry' | GRANT SELECT. INSERT on Movies TO torn, jerry WITH GRANT OPTION
+# When declaring foreign key constraint for relation A thai references relation B. the referenced attribute(s) of the relation B must be declare as_______ | UNIQUE or PRIMARY KEY
+# A class in UML is similar to___ | An entity set in E/R model
+# Given relations Movies(title, year, length, genre. studioName. producer#). MovieExec(name. address. cert#). and Studio(name. address. presC#). Suppose we have the materialized view that finds the name - ofthe producer of a given movie as follows: CREATE MATERIALIZED VIEW MovieProd AS SELECT title, year, name FROM Movies. MovieExec WHERE producer# ñ cert# Which of the following modification will affect the MovieProd materialized view? | Insert a new tuple into Movies or delete a tuple from Movies
+# In relational data model, an attribute is a column | F
+# A data model is a notation for describing data or information. And the description generally consist of: | 3 parts 
+# DBMS stands for what? | Database Management System 
+# Look at this line: MOVIES (Id, Name, Description) What the above represent? | A schema 
+# Choose 3 important data models that we will study in database course | Network Data Model, Hierachical Data Model, Relational Data Model
+# In relational data model, a tuple is a record or a row | T
+# When the Relational Data Model first proposed? | 1970
+# What is the oldest data model? | Network Data Model
+# How many data models mentioned in our database course? | 6
+# XML files are semi-structured data | T
+# A relation is a list of tuples | F
+# A relation is a set of tuples | T
+# What is the father of relational data model? | Adgar Codd
+# In relational data model, an attribute is a column | False
+# A data model is a notation for describing data or information. And the description generally consist of: | 3 part
+# A weak entity: |  both (a) and (b)
+# Give the relation R(XYZT) with the following FD's: XY -> Z ; XYT -> Z ; XYZ -> T ; XZ -> T Determine the primary key for R and then choose the correct statement | R is not in BCNF
+# Given the relation schema R(XYZT) and functional dependencies F = {X->Z, T->Y}. Which functional dependency causes a violation of second normal form (2NF) ? | both X->Z and T->Y
+# The highest normal form for relation schema R(XYZ) with functional dependencies: F = {XY-> Z;    Y->X;   Z->Y } is: | 3NF
+# Give the relation R(EFGH) with the following FD's: E -> F ; F -> E ; E -> H ; H -> F Determine the keys for R and then choose the correct statement | R is in 3NF
+# Give the relation R(ABCDE) with the following FD's: D -> C, CE-> A, D ->A, and AE ->D indicating which of the following attribute set is a key? | ABE
+# Which of the following relations is in Third normal form (3NF)? | R(ABCD) with FD's: ACD -> B ; AC -> D ; D -> C ; AC -> B
+# Let R(ABCDEFGH) satisfies the following functional dependencies: A -> B, CH -> A, B -> E, BD -> C, EG -> H, DE -> F. Which of the following FD's is also guaranteed to be satisfied by R? | ADG -> CH
+# Which of the following statements are correct? (choose 2) | All relations with only two attributes are in BCNF, For any relation schema, there is a dependency-preserving decomposition into 3NF
+# Which of the following relations is in Boyce-Codd Normal Form (BCNF)? | R(ABCD) with FD's: BD -> C ; AB -> D ; AC -> B ; BD -> A
+# How many design principles are there in our course when drawing an ERD? | 5
+# Which of the following are guidelines for designing the relational schema ? | All of the above
+# Choose the correct statements: When draw an ERD (choose 2): | We should picking the right kind.., When an entity has no non-primary key attribute, we should convert that entity to an attribute
+# Given relation scheme R = (XYZTV) and functional dependencies: {XY -> ZTV and X -> V}. So, we can say that: | XY is a key for R
+# Consider a relation R(A,B,C,D,E) with functional dependencies: AB->C, B->D, and C->E. What is/are the key(s) for R (maybe you must choose 1 or more): | AB
+# The ER model means that: | be close to a users perception of the data
+# Consider the following statement: "When drawing ERD, you should avoid saying something in many different ways' That above statement describes which principle? | Avoid Redundancy Principle
+# "Entity Sets and their attributes should reflect the reality" That above statement describes which principle? | Faithfulness principle
+# Choose the correct statements: When draw an ERD (choose 3): Choosing the right relation-ships, Avoid introducing.., Entity sets 
+# Given the relation schema R(MNPQ) with FDs: {MN->P;  MN->Q;  PQ->M; PQ->N}. Which is the highest normal form for R? | 3NF
+# The functional dependency A -> B for relation schema R(A,B.C,D) implies that | Any  two tuples in R that have the same value for A must have the same value for B
+# "When drawing ERD. you should avoid introducing more elements into your design than necessary" | Simplicity Count Principle
+# "When drawing ERD. if an entity has no non-key attribute and it is the "one" in many-one relationship, then we should set r! to the attribute of other entities" | Picking the right kind of element principle
+# The LEN function in SQL Server is: | A scalar function
+# What is the meaning of the LEN function in SQL Server? | The LEN function returns the total number of characters of a string
+# How to remove all trailing blanks? | We can use the RTRIM function
+# The following is the syntax for the DATEDIFF function: DATEDIFF ( datepart, startdate , enddate ) The datepart parameter specifies on which part (day, month, year) of the date to calculate the difference | TRUE
+# How to remove all leading blanks? | We can use the LTRIM function
+# What is the meaning of the ISNULL function? | The ISNULL function replaces NULL with the BLANK value
+# Which of the following is in-correct? | SELECT datepart(ë1-jan-09í, day)
+# Which of the following is in-correct? | SELECT datepart('1-jan-09', year)
+# Which of the following is in-correct? | SELECT datepart(ë1-jan-09', month)
+# How to convert a number to a string? (choose all possible) | We can use the CONVERT function, We can use the CAST function
+# What is the meaning of the DATEADD function? | The DATEADD function adds an interval to a date you specify
+# The CASE function is used to Evaluates a list of conditions and returns one of multiple possible result expressions | T
+# In SQL Server, an index is an on-disk structure associated with a table or view that speeds up retrieval of rows from the table or view | TRUE
+# Clustered index is not a good choice for the columns that undergo frequent changes | T
+# A table or view must have a clustered indexe and some non-clustered indexes | FALSE
+# SQL Server typically selects the most efficient method when executing queries. However, if  no indexes are available. SQL Server must use a full table scan | T
+# How many clustered index we can create in a table? | 1
+# Indexes can be helpful for a variety of queries that contain SELECT, UPDATE, or DELETE statements | T
+# In SQL Server, indexes are automatically created when PRIMARY KEY and UNIQUE constraints are defined on table columns | T
+# In reality, an incorrect index choice can cause less than optimal performance | T
+# You should define the clustered index key with as few columns as possible | T
+# Choose the incorrect statement | Non-Clustered indexes sort and store the data rows in the table based on their key values
+# An index contains keys built from one or more columns in the table or view. These keys are stored in a structure (B-tree) that enables SQL Server to find the row or rows associated with the key values quickly and efficiently | T
+# When performing a table scan, the query optimizer reads all the rows in the table, and extracts the rows that meet the criteria of the query. A table scan generates any disk I/O operations and can be resource -intensive | F
+# Choose the correct statement | Clustered indexes son and store the data rows in the table based on their key values 
+# Well-designed indexes can reduce disk I/O operations and consume fewer system resources, therefore it improves query performance | TRUE
+# We should use which function to get the number of rows affected by the last statement | @@IDENTITY
+# How  to write a good performance SQL query? | Always try to avoid using "SELECT *î
+# Choose the correct answer | Normalize the database to 3NF
+# Choose all the thing that we should do with SQL Server | Use the tools, Use "SELECT for every SELECT statement
+# We should use which function to get the last-inserted identity value. | @@IDENTITY
+# A Database is called having good performance if | None of the above
+# To improve the DB performance: | We should you the set-based queries and avoids procedural (row-by-row) queries
+# Regardless of what any other transaction is doing, a transaction must be able to continue with the exact same data£ sets it started with. The above describes which property of a transaction? | Isolation
+# Every row and value must agree with all constraints once the transaction is complete. The above describes which property of a transaction? | Consistency
+# The DB product must be constructed so that even if the data drive melts, the DB can be restored up to the last transaction that was committed a split second before the hard drive died. The above describes which property of a transaction? | Durability
+# Which is the most dangerous fault that can potentially affect the integrity of a transaction? | Dirty Read
+# How many properties we must use to measured the quality of a transaction? | 4
+# Once a transaction is committed, it stays committed. The above describes which property of a transaction? | Durability
+# Choose all correct statements | COMMITTING, ROLLING back, In SQL Server
+# Please choose 3 properties of a lock in DBMS  | Duration - the isolation, Mode - the type, Granularity
+# Which is the least dangerous fault that can potentially affect the integrity of a transaction? | Phantom rows
+# Each transaction must be isolated or separated from the effects of other transaction. The above describes which property of a transaction? | Isolation
+# At the end of the transaction, either all statements of the transaction is successful or all statements of the transaction fail. The above describes which property of a transaction? | Atomic
+# When sorting. Null values are treated as the lowest possible values | T
+# Except for COUNT, aggregate functions ignore null values | T
+# How to returns a part of a character, binary, text or image? (For example: how to get the ëbcdí in ëabcdefí string) | Use the SUBSTRING function
+# The ORDER BY clause can not include items not appearing in the select list | TRUE
+# RANK() and ROW_NUMBER() are 2 ranking functions | T
+# We can use the Aggregation in WHERE clause | F
+# How to get the information about the number of attempted connections, either successful or unsuccessful since SQL Server was last started | Use the @@CONNECTIONS
+# vA trigger is a special kind of stored procedure that automatically executes when an event occurs in the database server | T
+# The RANK() function returns the rank of each row within the partition of a result set | T
+# How to get the information about the version, processor architecture, build date, and operating system for the current installation of SQL Server | Usethe @@VERSION
+# When create stored procedures, the "WITH ENCRYPTION" option indicates that SQL Serverwill convert the original text of the CREATE PROCEDURE statement to an obfuscated  | T
+# The maximum nested level of a Transact-SQL stored procedure is 64MB | F
+# In SQL Server, we can use the ORDER BY clauses in sub-queries | F
+# The maximum size of a Transact-SQL stored procedure is 256MB | T
+# Schema-altering commands are known asÖÖcommands. | 	Data Definition Language
+# Referential integrity Constraints control relationships between _. | tables in a database
+# Choose the right statement below to declare zero or one occurrence of an Element in DTD. | <"ELEMENT element-name (child-name?)>
+# Given the relation Employee(SSN. FNAME. LNAME. SALARY). Select the right query below to find the employee(s) who has the lowest salary in the company | SELECT  LNAME. FNAME. SALARY FROM  Employee WHERE SALARY IN (SELECT MIN(SALARY) FROM Employee)
+# In the three-tier architecture, the database tier's function is to | Execute queries that are requested from the application tier.
+Referential integrity ensures |that the relationship between two tables remains synchronized during updates and deletes
+ to apply a selection to a bag|each tuple in dependently
+"Consistent" | Transactions must not violate any integrity constraints during its execution
+"Durable" | Transactions that have committed will survive permanently
+"R(A,B,C,D)" is an example of: | A schema
+"When drawing ERD. if an entity has no non-key attribute and it is the "one" in many-one relationship, then we should set r! to the attribute of other entities".That above statement describes which principle.|Picking the right kind of element principle
+(6795)	In _____ Data Model, the data and relations between them are organized in tables |Relational
+(6797)	A ____ is a powerful tool for creating and managing large amounts of data efficiently and allowing it to persist over long periods of time, safely|	DBMS
+(6800)	What is the hierarchical data model? |A hierarchical data model is a data model in which the data is organized into a tree-like structure
+(6802)	Which of following is never used as a data model?|None of the others
+(6803)	A ____ is a logically coherent collection of data with some inherent meaning, representing some aspect of real world and being designed, built and populated with data for a specific purpose|Database
+(6814)	In SQL , the command/statement that let you add an attribute to a relation schema is ÖÖ.|Alter
+(6817)	A ____ is a relation name, together with the attributes of that relation.|schema
+(6824)	A ___ is a notation for describing the structure of the data in a database, along with the constraints on that data |data model
+(6826)	To update a relation's schema, which one of the following statements can be used?|ALTER TABLE
+(6827)	A _____ is a  language for defining data structures |DDL
+(6829)	What is another term for a row in a relational table?  Tuple
+(6832)	Schema-altering commands are known as _________ commands.|Data Definition Language
+(6833)	Why the intersection operator is not called a primitive relational algebra operator? |Because the intersection operator can be expressed through the union operator and the difference operator
+(6834)	Which statement is used to remove a relation named R?  |DROP TABLE R;
+(7961)	Given a relation R(A,B,C,D). Which of the followings is trivial? |A->->BCD
+(7961)	Given a relation R(A,B,C,D). Which of the followings is trivial?|A->->BCD
+(7962)	What is a functional dependency? |A functional dependency (A->B) occurs when the attribute A uniquely determines B
+(7966)	Suppose R is a relation with attributes A1, A2, A3, A4.|4
+(7970)	What is a key attribute in a relation? |A key attribute is an attribute that belongs to one of the keys of the relation
+(7972)	Let R(ABCD) be a relation with functional dependencies A -> B, C -> B, B -> D|AC
+(7975)	Let R(A,B,C,D) with the following FDs: {AB->C, AC->B, AD->C}|R is in 2NF
+(7976)	Given a R(A,B,C,D) with the following FDs: AB->D BC->A AD->B CD->B AD->C |The FD set of R is not canonical and R is in BCNF
+(7978)	The relation R(ABCD) has following FDs:|A -> B ; B -> A ; A -> D ; D -> B |R is in 3NF
+(7979)	The relation R(ABCD) has following FDs:|R is in 3NF
+(7984)	Which of the following relations is in Boyce-Codd Normal Form (BCNF)?|R(ABCD) with FD's: BD -> C ; AB -> D ; AC -> B ; BD -> A
+(7990)	Consider the following functional dependencies |R is in First Normal Form
+(7991)	3NFconcept is related to (choose 1 answer only): |All of the others
+(7993)	What is "de-normalization"? |De-normalization means allowing redundancy in a table
+(7994)	What is the goal of decomposition when designing a database?|The goal of decomposition is to replace a relation by several relations that do not exhibit anomalies
+(7995)	How to eliminate anomalies when we design a database?|We should decompose relation to eliminate anomalies
+(7999)	What is the difference between the 2NF and the 3NF? |2NF deals with partial functional dependency, while 3NF deals with transitive functional dependency
+(8002)	Which of the following statements is correct? |For any relation schema, there is a dependency-preserving decomposition into 3NF
+(8004)	What is the benefit of "de-normalization"? |The main benefit of de-normalization is improved performance with simplified data retrieval (this is done by reduction in the number of joins needed for data processing)
+(8005)	Which of the following statements is true?|All of the others.
+(8009)	In UML, what is the difference between an aggregation and a composition? |In composition, when the owning object is destroyed, so are the contained objects. In aggregation, this is not necessarily true.
+(8009)	In UML, what is the difference between an aggregation and a composition?|In composition, when the owning object is destroyed, so are the contained objects. In aggregation, this is not necessarily true.
+(8010)	Look at the following statements:(a)We should pick the right kind of elements (b) When an entity has no non-primary key attribute, we should convert that entity to an attribute|(a) and (b) are correct
+(8013)	A(n) _____ provides a means to analyze business requirements so as to standardize organizational vocabulary, enforce business rules, and ensure adequate data quality |Entity Relationship Diagram
+(8017)	The ER Diagram uses three principle element types:|Entity sets, Attributes, and Relationships
+(8019)	A class in UML is similar toÖÖÖ.. |An entity set in E/R model
+(8029)	Consider the following statement:ìEntity Sets and their attributes should reflect the realityî|Faithfulness principle
+(8030)	The binary relationship between classes in UML is called Ö  |Association
+(8032)	An association class in UML is similar to ______ in the ER model |attributes on a relationship
+(8222)	Which of the following is NOT a standard aggregation operator? |GROUP
+(8224)	Consider the law, that holds for set relations:(S intersect T) - R = S intersect (T - R).|False
+(8231)	Consider the Datalog rule H(x,y) <-  S(x, y) AND x > 2 AND y < 6. Relation S(x, y) has 3 tuples (2, 3), (3, 5), and (4, 6). What is about H?  |H has a tuple (3, 5)
+(8232)	Suppose that tuple t appears, respectively, x, y, and z times in the relations X, Y, and Z. Let t appear w times in the relation: X union (Y intersect Z).|w <= x+y
+(8236)	Choose the correct statement:|Aggregate functions perform a calculation on a set of values and return a single value
+(8238)	Consider the law, that holds for set relations: T intersect(R union S) = (T intersect R) union (T intersect S)|False
+(8500)	Suppose the relation S(B,C,D) has tuples:|(9,16)
+(8501)	Suppose the relation S(B,C,D) has tuples:|(c,18)
+(8503)	Given the relation Employee(SSN, FNAME, LNAME, SALARY, DepartmentNo). Select the right query below to count the number of employees in each department.|SELECT DepartmentNo, COUNT(*) FROM Employee GROUP BY DepartmentNo
+(8505)	Suppose the relation S(B,C,D) has tuples:|(10,14)
+(8507)	Suppose the relation S(B,C,D) has tuples:|6
+(8507)	Suppose the relation S(B,C,D) has tuples:|SELECT SUM(D) FROM S WHERE D < 8 AND D > 5|6
+(8509)	Column A of a relation has the following list of values in the six rows of the table,avg distinc a:| NULL, NULL, 10, 10, 20, 30|20
+(8513)	The table Arc(x,y) currently has the following tuples (note that there are duplicates): (1,2), (1,2), (2,3), (3,4), (3,4), (4,1), (4,1), (4,1), (4,2). Compute the result of the query:|(3,1,2)
+(8517)	How we can understand about this statement: "All aggregate functions are deterministic"? |This means aggregate functions return the same value any time they are called by using a specific set of input values
+(8522)	The table Arc(x,y) currently has the following tuples (note there are duplicates): |(4,4)
+(8523)	When we apply set operators (UNION, INTERSECT, EXCEPT) to two relations R and S, which conditions on R and S must be satisfied? |All of the others
+(8526)	How many JOIN conditions are necessary to combine five tables based on common attributes? |4
+(8528)	Suppose relation R(A,B) has the tuples:|(30,y) (70,t)
+(8531)	Here are three relations, R(A,B), S(C,D). Their current values are:|(4, 7, null, null)
+(8532)	Here are two relations, R(A,B), S(C,D). Their current values are:|(null, null, 0, 1) (null, null, 5, 8)
+(8534)	A tuple which fails to participate in a join is called: |dangling tuple
+(8538)	(TRUE OR NULL) return: |TRUE
+(8539)	For what values of x, y, and z, including NULL, does the Boolean expression  x <= 4 OR NOT(y >= 2 AND z = 10)|x = 5, y = 3, z = 10
+(8542)	What does NULL mean? |The value NULL means UNKNOWN
+(8547)	What operator tests column for the absence of data? |IS NULL operator
+(8550)	What is the value of the query: SELECT 'Nancy' + NULL + 'Smith'|NULL
+(8551)	Choose one correct statement:|No two null values are equal
+(8552)	Choose one correct statement:|Comparisons between two null values, or between a NULL and any other value, return unknown
+(8554)	For what values of x, y, and z, including NULL, does the Boolean expression |x = NULL, y = 0, z = 4.
+(8557)	Which SQL keyword is used to sort the result-set? |ORDER BY
+(8558)	Three properties of a lock in DBMS are:|(a) and (c) and (d) are true
+(8559)	A database transaction, by definition, must be ACID (atomic, consistent, isolated and durable). What does ìIsolatedî mean? |ìIsolatedî means that: how/when the changes made by one operation in one transaction become visible to other concurrent operations in other transactions
+(8560)	A database transaction, by definition, must be ACID (atomic, consistent, isolated and durable). What does ìDurableî mean? |ìDurableî means that: Transactions that have committed will survive permanently
+(8569)	Suppose relation R(A,B).[file:8569.jpg]|SELECT (A+B) AS C FROM R WHERE (A+B) > 10
+(8573)	Suppose we have a relation instance R(A,B,C) as following:|SELECT SUM(B) FROM R WHERE C > 10 |NULL
+(8575)	What is the difference between the WHERE and HAVING SQL clauses?|The WHERE SQL clause condition(s) is applied to all rows in the result set before the HAVING clause is applied (if present). The HAVING clause is used only with SELECT SQL statements and specifies a search condition for an aggregate or a group
+(8578)	What one is a wildcard used for pattern matching?|ì%î (for multi-character substitution)
+(8582)	Three basic types of database integrity constraints are:|(a) and (b) and (c) are true:entity,domain , referential..
+(8584)	Foreign key constraints are created by using ì_____î keyword to refer to the primary key of another table |A
+(8585)	Suppose R and S are 2 relations. R is the parent of S.|We can delete a row from R although that row has children in S (and in this case, all the children will be deleted too)
+(8592)	To create a DEFAULT constraint on the ìCityî column of the table PERSON which is already created, use the following SQL: |ALTER TABLE Person ALTER COLUMN City SET DEFAULT 'SANDNES'
+(8599)	Choose the correct statement.|All of the others.
+(8600)	What is difference between PRIMARY KEY and UNIQUE KEY ? |A table can have more than one UNIQUE KEY constraint but only one PRIMARY KEY
+(8609)	A(an) _____ asserts that a value appearing in one relation must also appear in the primary-key component(s) of another relation|Foreign key constraint
+(8616)	The most useful index on a relation is an index on its key. This is because:|	The search operation based on the primary key is commonly used.
+(8620)	Select the most correct answer |All of the others.
+(8624)	Well-designed ____ can reduce disk I/O operations and consume fewer system resources therefore improving query performance|Indexes
+(8625)	A database ____ is a data structure that improves the speed of data retrieval operations on a database table at the cost of slower writing and increased storage space|Index
+(8633)	___ allow the database application to find data fast, without reading the whole table |Indexes
+(8637)	A/An _____ is a data structure that makes it efficient to find those tuples that have a fixed value for an attribute |Index
+(9168)	The benefits of stored procedures are:|(a) and (c) are true
+(9171)	In PSM, the difference between a stored procedure and a function is that: |	A function has the return statement.
+(9176)	The SQL operations that are performed while a connection is active form a ____ |Session
+(9182)	The aim for the Object-relational database is to bridge the gap between conceptual data modelling techniques such as Entity-relationship diagram (ERD) and object-relational mapping (ORM), which often use classes and inheritance, and relational databases, which do not directly support them |True
+(9186)	Select the right statement to declare MovieStar to be a relation whose tuples are of type StarType. Note: StarType is a user-defined type that has its definition as follows:|CREATE TABLE MovieStar OF StarType ();
+(9187)	A ____ table is a table that is embedded within another table |Nested
+(9189)	Choose the correct statement:|All of the others
+(9192)	______ is a set of markup declarations that define a document type for SGML-family markup languages (SGML, XML, HTML)|Document Type Definition
+(9195)	A database of _____ data model is a collection of nodes, each node is either a leaf or interior|semi-structured
+(9196)	Select the well-formed XML.|<? xml version = ì1.0î ?> <MovieData> <Movie title=îStarWarî><Year>1997</Year></Movie> </MovieData>
+(9198)	A ____ document defines the XML document structure with a list of legal elements and attributes |XML
+(9207)	A ____ is the framework under which data may exist and SQL operations on data may be executed |SQL Environment
+(9211)	A _____ specifies which characters are ìless thanî which other characters |Collation
+(TRUE AND NULL) returns: | NULL
+(TRUE AND NULL) returns:|NULL
+(TRUE OR NULL) return:|TRUE
+3NF concept is related to | (Atomic,Full,Super,Trans) All of the others
+3nfconcept is related to|all of the others
+A class in UML is similar to | An entity set in E/R model
+A data model is a notation for describing data or information. And the description generally consist of:|3 parts
+A database administrator (DBA) is a person that is also known by the title: | Database Coordinator or Database Programmer
+A Database is called having good performance if|None of the above
+A database transaction, by definition, must be ACID (atomic, consistent, isolated and durable). What does ìDurableî mean?|A database transaction, by definition, must be ACID (atomic, consistent, isolated and durable). What does ìDurableî mean?
+A database transaction, by definition, must be ACID (atomic, consistent, isolated and durable). What does ìIsolatedî mean?|ìIsolatedî means that: how/when the changes made by one operation in one transaction become visible to other concurrent operations in other transactions
+A relation is a list of tuples|False
+A relation is a set of tuples|True
+A relation is: | A set of tuples
+a set of attributes forms a.. for a relation if we do not allow 2-tuples in a relation|key
+A table or view must have a clustered indexe and some non-clustered indexes|FALSE
+A trigger is a special kind of stored procedure that automatically executes when an event occurs in the database server|TRUE
+A tuple which fails to participate in a join is called: | dangling tuple
+A weak entity:|both (a) and (b):must have total participation ,does not have a key attribute
+A ____ is a powerful tool for creating and managing large amounts of data efficiently and allowing it to persist over long periods of time, safely  | DBMS
+A _____ is a  language for defining data structures | DDL
+A(n) _____ provides a means to analyze business requirements so as to standardize organizational vocabulary, enforce business rules, and ensure adequate data quality | Entity Relationship Diagram
+An association class in UML is similar to ______ in the ER model | Entities
+An index contains keys built from one or more columns in the table or view. These keys are stored in a structure (B-tree) that enables SQL Server to find the row or rows associated with the key values quickly and efficiently|TRUE
+At the end of the transaction, either all statements of the transaction is successful or all statements of the transaction fail.The above describes which property of a transaction|Atomic
+authorizes access to database, coordinate, monitor its use, acquiring software, and hardware resources|Database administrator 
+basic relational algebra can be expressed in datalog rules|true
+Choose 3 important data models that we will study in database course|Network Data Model.Hierachical Data Model/Relational Data Model
+choose a right answer| a sql environment: All of other
+Choose a right answer|An authorization ID may be granted privileges from others or may grve its privileges to others
+Choose a right answer|Object-relation :All of the others
+Choose a wrong answer.|Relational algebra can express recursion.
+Choose all correct statements:|Relation instance is current set of rows for a relation schema,Relational Data Model is a model that match the way we think about our data
+Choose all correct statements|COMMITTING a transaction makes permanent changes resulting from all SQL statements in the transaction..ROLLING back a transaction rejects any of the changes resulting from the SQL statements in the transaction..In SQL Server, every DML operation is a transaction whether it has a BEGIN TRANSACTION or not
+Choose all the correct statements about indexes|all:The selection of the right..Designing efficient indexes..Poorly designed indexes and 
+Choose all the thing that we should do with SQL Server|1.Use the tools 2.Use "SELECT for every SELECT statement
+Choose an incorrect statement|Database is created:None of the others
+Choose one correct statement: | No two null values are equal
+Choose one correct statement:|Comparisons between two null values, or between a NULL and any other value, return unknown
+Choose one right answer. | All of the others.
+Choose right answer|NULL value:All of orther
+Choose the correct answer|Normalize the database to 3NF
+Choose the correct statement | Aggregate functions perform a calculation on a set of values and return a single value
+Choose the correct statement | Except for COUNT, aggregate functions ignore null values
+Choose the correct statement|Aggregate functions :All of the above
+Choose the correct statement|Clustered indexes son and store the data rows in the table based on their key values
+Choose the correct statement|Except for COUNT, aggregate functions ignore null values
+Choose the in-correct statement: |When the sequence of tasks is complete, the SAVE POINT closes the transaction
+Choose the incorrect statement|Non-Clustered indexes sort and store the data rows in the table based on their key values
+Choose the most correct statement about PRIMARY KEY:|All of the others
+Choose the right answer|A UDT :All of the others
+Choose the right statement below to declare zero or one occurrence of an Element in DTD|<"ELEMENT element-name (child-name?)>
+Choose the right statement to grant the INSERT and SELECT privileges on table Movies to users torn' and jerry'|GRANT SELECT. INSERT on Movies TO torn, jerry WITH GRANT OPTION
+Choose the right statement|All of the others
+Choose the right statement|Sub-queries :All of the others
+Choose the right statement|When the trigger is awakened, it tests a condition. If the condition is satisfied, the action associated with the trigger is executed
+Choose the right statement|xml schema:All of the others
+Clustered index is not a good choice for the columns that undergo frequent changes|TRUE
+Column A of a relation has the following list of values in the six rows of the table: NULL, NULL, 10, 10, 20, 20 After grouping by (A+10), the output has:  | 3 groups
+Column A of a relation has the following list of values in the six rows of the table:|20
+Compute the join of R and S with the condition: R.A < S.C AND R.B < S D Then, identify from the list below all the tuples in the computed result (assume the schema of the result is (A. R.B. S.B. C. D)):|(1.2.4.6.8),(1.2.2.4.6)
+Compute the outer-join of R and S, where the condition is: R.A>S.B AND R.B=S.C. Which of the following tuples of R or S is dangling (and therefore needs to be padded in the outer-join)? | (4,7,9) of S.
+Compute the right - outerjoin of R and S. where the condition is: R.B = S.B. Then identify all the tuples of R that are not appear in the computed result|(5.6),(7.8)
+Compute the right outer join of R and S, where the condition is: R.B = S.B. Then identify 2 tuples of R that do not appear in the computed result | (30,y) (70,t)
+Consider a relation R(A,B,C,D,E) with functional dependencies AB->C, B->D, and C->E. What is the key  for R (choose one) | AB
+Consider a relation R(A,B,C,D,E) with functional dependencies:AB->C, B->D, and C->E.What is/are the key(s) for R (maybe you must choose 1 or more):|AB
+Consider a relation with schema R(A, B, CD) and FD's BC-> D, D-> A, A-> B. Which of the following is the key of|BC
+Consider a relation with schema R(A, B. C. D) and FD's A-> B. A-> C. C -> D. Which ofthe following is the {A}+ ?|{A B C D}
+Consider the Dalalog rule H(xy) <- Sfx. y) AND x > 2 AND y < 6. Relation S(x y) has 3 tuples (2.3). (3.5). and (4.6). What is about H?|H has a tuple (3.5)
+Consider the Datalog rule H(x,y) <-  S(x, y) AND x > 2 AND y < 6. Relation S(x, y) has 3 tuples (2, 3), (3, 5), and (4, 6). What is about H? | H has a tuple (3, 5)
+Consider the following statement: ìWhen drawing ERD, you should avoid introducing more elements into your design than necessaryî That above statement describes which principle? | Simplicity Count Principle
+Consider the following statement:"When drawing ERD, you should avoid saying something in many different ways',That above statement describes which principle|Avoid Redundancy Principle
+Data Definition language (DDL) is used to |declare database schemas
+data definition language (ddl) is used to|all of the other
+Database integrity ensures that:|data entered into the database is accurate and consistent
+datalog does not support bag operation|true
+DBMS stands for what|Database Management System *
+Each transaction must be isolated or separated from the effects of other transaction The above describes which property of a transaction?|Isolation
+Every row and value must agree with all constraints once the transaction is complete.
+Every row and value must agree with all constraints right after the transaction is complete. The above describes which property of a transaction? | Consistency
+Except for COUNT, aggregate functions ignore null values|TRUE
+Exception handler in PSM is defined as follows|All of the others
+FK: | A foreign key can have only one attribute
+For what values of x, y, and z, including NULL, does the Boolean expression x <= 3 OR NOT(y >= 1 AND z = 5) have the truth value FALSE? Identify one of those values from the list below | x = 4, y = 3, z = 5.
+Foreign key constraints are created by using ì_____î keyword to refer to the primary key of another table |REFERENCES
+Four characteristics of transactions are|Atomicity. Isolation. Consistency. Durability
+Give a relation R(A,B,C,D) like this: abcd 1236	1336 2457 Please choose the in-correct functional dependency: | A -> B
+Give the relation R(ABCDE) with the following FD's:D -> C, CE-> A, D ->A, and AE ->D.indicating which of the following attribute set is a key|ABE
+Give the relation R(EFGH) with the following FD's:E -> F ; F -> E ; E -> H ; H -> F.Determine the keys for R and then choose the correct statement|R is in 3NF
+Give the relation R(XYZT) with the following FD's:XY -> Z ; XYT -> Z ; XYZ -> T ; XZ -> T,Determine the primary key for R and then choose the correct statement:|R is not in BCNF
+given a r(a,b,c,d) with the following fd's:ab->d,bc-a,ad-b,cd-b,ad-c| not canonical and is bcnf
+Given a relation R(A.B.C.D). Which of the followings is trivial?|A->->BCD
+Given relation scheme R = (XYZTV) and functional dependencies:
+Given relation U(A, B, C) that has 2 tuples (1,2,3) and (4,5,6), and relation V(B(C, D) that has 2 tuples (2,3,10) and (2,3,11). Choose the right answer below;|The outer join of U and V is the relation R(A. B. C. D) that has 3 tuples (1.2.3.10) .(1.2.3.11) and (4.5.6. NULL).
+Given relations Movies(title, year, length, genre. studioName. producer#). MovieExec(name. address. cert#). and Studio(name. address. presC#). Suppose we have the materialized view that finds the name -ofthe producer of a given movie as follows|Insert a new tuple into Movies or delete a tuple from Movies
+Given relations R(A,B) and S(B,C,D). The result of natural join of the relations R and S has |Attributes A, B, C, D
+Given relations R(A.B) and S(B.C.D). The result of natural join of the relations R and S has|Attributes A B. C. D
+Given the relation Employee(SSN. FNAME. LNAME. SALARY). Select the right query below to find the employee(s) who has the lowest salary in the company|SELECT LNAME. FNAME. SALARY FROM Employee WHERE SALARY IN (SELECT MIN(SALARY) FROM Employee)
+Given the relation Employee(SSN. FNAME. LNAME. SALARY. DepartmentNo). Select the right query below to count the number of employees in each department|SELECT DepartmentNo. COUNT(*) FROM Employee GROUP BY DepartmentNo
+Given the relation Movies(title, year, length, genre. studioName). Select the right query to create a View with the titles and studio names of all movies that were produced in 1980|CREATE VIEW OldMovies AS SELECT title. studioName FROM Movies WHERE year=1980
+given the relation schema r(a,b,c) and functional dependencies f={ab-c,b-a,c-b} which attribute(s) is/are prime|b and c
+Given the relation schema R(MNPQ) with FDs:{MN->P;  MN->Q;  PQ->M; PQ->N}.Which is the highest normal form for R?|3NF
+Given the relation schema R(XYZT) and functional dependencies:F = {X->Z, T->Y}.Which functional dependency causes a violation of second normal form (2NF|both X->Z and T->Y
+Here are three relations, R(A,B), S(C,D), and T(E,F). Their current values are|(1,1,2,2)
+Here are three relations, R(A,B), S(C,D). Their current values are:|(4, 7, null, null)
+How  to write a good performance SQL query?|Always try to avoid using "SELECT 
+How many clustered index we can create in a table?|1
+How many data models mentioned in our database course?|6
+How many design principles are there in our course when drawing an ERD?|5
+How many primitive relational algebra operators are there in our course?|6
+How many properties we must use to measured the quality of a transaction?|4
+How to convert a number to a string?|We can use the CONVERT function.[B]We can use the CAST function
+how to eliminate anomalies when we design a database|we should decompose relation to eliminate
+How to get the information about the number of attempted connections, either successful or unsuccessful since SQL Server was last started|Use the @@CONNECTIONS
+How to get the information about the version, processor architecture, build date, and operating system for the current installation of SQL Server|Usethe @@VERSION
+How to remove all leading blanks|We can use the LTRIM function
+How to remove all trailing blanks?|We can use the RTRIM function
+How to returns a part of a character, binary, text or image?For example: how to get the ëbcdí in ëabcdefí string)|Use the SUBSTRING function
+How we can understand about this statement: "All aggregate functions are deterministic"?  | This means aggregate functions return the same value any time they are called by using a specific set of input values
+In DTD. the main difference between PCDATA and CDATA is|dai nhat
+In Java Database Connectivity (JDBC). before we can execute SQL statements), we need to |Establish a connection to the database and create statement(s).
+In order to modify or delete an existing constraint, it is necessary that: |the constraint has a name
+In PSM. the difference between 3 stored procedure and a function is that|All of the others
+In reality, an incorrect index choice can cause less than optimal performance|TRUE
+In relational data model, a tuple is a record or a row|True
+In relational data model, an attribute is a column|False
+In SQL language, the command/statement that let you add an attribute to a relation is_|Alte
+In SQL Server, an index is an on-disk structure associated with a table or view that speeds up retrieval of rows from the table or view|TRUE
+In SQL Server, we can use the ORDER BY clauses in sub-queries|FALSE
+In the three-tier architecture, the database tier's function is to|Execute queries that are requested from the application tier
+In UML, a _____ between classes is called an association | binary relationship
+In UML, what is the difference between an aggregation and a composition? | In composition, when the owning object is destroyed, so are the contained objects. In aggregation, this is not necessarily true.
+Indexes can be helpful for a variety of queries that contain SELECT, UPDATE, or DELETE statements|[A]|TRUE
+is a logically coherent collection of data with some inherent meaning, | Database
+is a notation for describing the structure of the data in a database|data model
+is a relation name, together with the attributes of that relation|schema
+is similar to a relational database, but with an | object-relational database
+Let R(ABCD) be a relation with functional dependencies What is the key for R {A -> B; C -> B; B -> D} | AC
+let r(abcdefgh) satisfies the following functional dependencies:a-b,ch-a,b-e,..|adg-ch
+Look at the following statements: (a) For any relation schema, there is a dependency-preserving decomposition into 3NF (b) For any relation schema, there is not dependency-preserving decomposition into 3NF (c) For any relation schema, there is dependency-preserving decomposition into BCNF (d) For some relation schema, there is not dependency-preserving decomposition into BCNF | (a) and (d) are true :3nf & not bcnf
+Look at the following tables and then choose the correct statment:|All of the others
+Look at this line:MOVIES (Id, Name, Description) What the above represent|A schema 
+Most of the database systems in use today are based on the _____ data model | Relational
+Normalization is a process of analyzing the given relation schema based on their Functional Dependencies (FDs) and primary keys to achieve the following: | All of the others
+Normalization is | a process whereby the design of a table (relation) is decomposed into more tables that more precisely fit the relational model
+Often, a DBMS allows us to build a single index on ____ attribute(s)|only one
+Once a transaction is committed, it stays committed The above describes which property of a transaction|Durability
+Pay attention into the following query:|% (percent sign) represents zero, one, or more characters
+Please choose 3 properties of a lock in DBMS|Duration - the isolation mode of the lock..Mode - the type of the lock..Granularity-the size of the lock
+QN=1 (8033)	In UML, a _____ between classes is called an association|binary relationship
+QN=2 (8027)	When an entity is called ìweakî? |(b) and (c) are correct
+QN=4 (8025)	Consider the following statement: ìWhen drawing ERD, if an entity has no non-key attribute and it is the ëoneí in many-one relationship, then we should set it to the attribute of other entitiesîù|Picking the right kind of element principle
+QN=5 (8028)	When drawing an ERD:|(a) and (c) and (d) are correct
+QN=6 (8018)	A weak entity |does not have enough key attribute(s)
+QN=8 (8009)	In UML, what is the difference between an aggregation and a composition? |In composition, when the owning object is destroyed, so are the contained objects. In aggregation, this is not necessarily true.
+RANK() and ROW_NUMBER() are 2 ranking functions|TRUE
+Referential integrity Constraints control relationships between Ö.  |table in database
+Regardless of what any other transaction is doing, a transaction must be able to continue with the exact same data£ sets it started with|Isolation
+Regardless of whatever any other transaction is doing, a transaction must be able to continue with the exact same data set it started with. The above describes which property of a transaction? | Durability
+Relation R(x,y) currently consists of only one tuple (NULL, NULL). Which of the following queries will produce a nonempty output? That is, at least one tuple will be produced, although the tuple(s) may have NULL's | SELECT * FROM R WHERE x IS NULL
+relational algebra can express recursion|false
+Schema-altering commands are known asÖÖcommands|Data Definition Language
+See picture: | S(t,y,l,g,s,p) <- Movies(t,y,l,g,s,p) AND length=100 AND studioName=ëFoxí
+Selecl Ihe right syntax for HAVING clause in SOL|SELECT ,FROM ,WHERE ,GROUP BY ,HAVING <conditions on groups>
+SELECT a, COUNT(DISTINCT B) FROM R GROUP BY a HAVING SUM(B) >3 | (2,3)
+SELECT Team, Opponent FROM Scores WHERE Team LIKE '% %' OR  Opponent LIKE '_i%' | (Golden Eagles, Lions)
+Select the right answer|An index is a data structure used :All of orther
+Select the right answer|tags in xml:All of the others
+Select the right answer|Virtual views :All of other
+Select the right statement to declare MovieStar to be a relation whose tuples are of type StarType. Note; StarType is a user-defined type that has its definition as follows|CREATE TABLE MovieStar OF StarType Q;
+Select the right statement|We can create constraint :All of the others
+Select the valid query to declare the foreign key presC# of the relation Studiolname. address. presC#) that references the cert of the relation MovieExeclname. address. cert#. netWorth):|CREATE TABLE Studio (name CHAR(30) PRIMARY KEY. address VARCHAR(256). presC# INT REFERENCES Movie Exec (cert#));
+Select the well-formed XML|<? xml version = "1.0" ?> <MovieData> <Movie tiHe="StarWar*><Year>1997</Yearx/MovJe> </MovieData>
+single datalog rule can be expressed in relational algebra |true
+SQL Server typically selects the most efficient method when executing queries. However, if  no indexes are available. SQL Server must use a full table scan|TRUE
+Suppose an updatable view ParamountMovies is associated with Movies relation. Choose a right answer|Drop Movies relation also delete the view ParamountMovies
+Suppose R is a relation with attributes A1, A2, A3, A4. The only key of R is A1. So, how many super-keys R has? | 8
+Suppose R is a relation with attributes A1, A2, A3, A4. The only key of R is {A1, A2}. So, how many super-keys do R have? | 4
+Suppose relation R(A,B) has the tuples:|(7,d)
+Suppose relation R(a,b,c) has the following tuples: |(2,3)
+Suppose relation R(A.B) has the tuples.and the relation S(B.C.D) has tuples.Compute the Left - outenom of R and S. where the condition is: R.B = SB. Then identify all the tuples of R that are not appear in the computed result|none of above
+Suppose relation R(A.B) has the tuples.and the relation S(B.C.D) has tuples.Compute the natural join of R and S.Then, identify which of the following tuples is/are in the natural joinR|><| S. You may assume each output tuple has schema (A.B.C.D)|(3.4.6.8),(12.4.6)
+Suppose the relation S(B,C,D) has tuples:|(9,16)
+Suppose we have a relation R(ABCD) with FD's: BD ->  C ; AB -> D ; AC -> B ; BD -> A | R is in BCNF
+The above describes which property of a transaction?|Consistency
+The binary relationship between classes in UML is called |Association
+The CASE function is used to Evaluates a list of conditions and returns one of multiple possible result expressions|TRUE
+The DB product must be constructed so that even if the data drive melts, the DB can be restored up to the last transaction that was committed a split second before the hard drive died|Durability
+The ER Diagram uses three principle element types:|Entity sets. Attributes, and Relationships
+The ER model means that|be close to a users perception of the data
+The following is the syntax for the DATEDIFF function:DATEDIFF ( datepart, startdate , enddate ).The datepart parameter specifies on which part (day, month, year) of the date to calculate the difference|TRUE
+The functional dependency A -> B for relation schema R(A,B.C,D) implies that|Any  two tuples in R that have the same value for A must have the same value for B
+The highest normal form for relation schema R(A,B,C) with functional dependencies: F = {AB-> C;  B->A;  C->B } is: | BCNF
+The highest normal form for relation schema R(XYZ) with functional dependencies:F = {XY-> Z;    Y->X;   Z->Y } is|3NF
+The IN SQL keyword | Determines if a value matches any of the values in a list or a sub-query
+The IN SQL keyword|Determines if a value any of the values in a list or a sub-query
+The key for a weak entity set E is_|Zero or more attributes of E and key attributes from supporting entity sets
+The keyword ESCAPE is used to match any string that contains the characters "%" or "_"|Specifies a range to test.
+The LEN function in SQL Server is|A scalar function
+The maximum nested level of a Transact-SQL stored procedure is 64MB|FALSE
+The maximum size of a Transact-SQL stored procedure is 256MB|TRUE
+The ORDER BY clause can not include items not appearing in the select list|TRUE
+The purpose of the foreign key is to ensure| referential integrity
+The RANK() function returns the rank of each row within the partition of a result set|[A]TRUE
+The relation R(A,B) may have duplicate tuples. Choose the query that create non-duplicated results, regardless of what tuples R contains?|SELECT A, B FROM R GROUP BY A, B
+the relation r(abcd) has following fds .acd-b;ac-d;d-c;ac-b|r is in 3nf
+the relation r(abcd) has following fds: ab-c,abd-c,abc-d,acd|r is not in 3nf
+The relation R(ABCD) has following FDs: { A -> B ; B -> A ; A -> D ; D -> B } | R is not in 2NF
+The relation R(ABCD) has following FDs: { AB -> C ; ABD -> C ; ABC -> D ; AC -> D} Choose a correct statement about R?  | R is not in 3NF
+the relation r(abcd) has following FDs{a-b,b-a,a-d,d-b}| r is not in 2nf
+The relational operator that adds all possible pairs of rows from two tables is known as the Ö. operator. | product
+The relational operator that yields all possible pairs of rows from two tables is known as a |Product
+The result of (UNKNOWN OR TRUE) is|TRUE
+The table Arc(x,y) currently has the following tuples (note that there are duplicates): (1,2), (1,2), (2,3), (3,4), (3,4), (4,1), (4,1), (4,1), (4,2). Compute the result of the query:  SELECT a1.x, a2.y, COUNT(*) FROM Arc a1, Arc a2 WHERE a1.y = a2.x GROUP BY a1.x, a2.y; Which of the following tuples is in the result?  | (3,1,6)
+The table R(X,Y) currently has the following tuples (note there are duplicates).The relation S(A,B,C) has the following tuples:|There is an error
+Three properties of a lock in DBMS are: a)Granularity: the size of the lock b) Granularity: the type of the lock c) Mode: the type of the lock d) Duration: the time in seconds that the DBMS waits for a lock to be released | (a) and (c) and (d) are true
+To create a constraint (for example, referential integrity constraint) on a relation, the owner ofthe schema must have|REFERENCES privilege
+To drop a DEFAULT constraint, use the following SQL: |ALTER TABLE Persons ALTER COLUMN City DROP DEFAULT
+To improve the DB performance:|We should you the set-based queries and avoids procedural (row-by-row) queries
+To update a relation's schema, which one of the following statements can be used? | ALTER TABLE
+today, in a modern dbms, the queries are parsed and optimized by|query compiler
+Today, the two important data models are: | cau dai nhat
+We can use the Aggregation in WHERE clause|FALSE
+We should use which function to get the last-inserted identity value.|@@IDENTITY
+We should use which function to get the number of rows affected by the last statement|@@IDENTITY
+Well-designed indexes can reduce disk I/O operations and consume fewer system resources, therefore it improves query performance|TRUE
+Well-designed ____ can reduce disk I/O operations and consume fewer system resources therefore improving query performance |Indexes
+What are the drawbacks of indexes? |(a) and (b) are true:index require, index make update
+What does NULL mean? | The value NULL means UNKNOWN
+What does the following SQL statement do:|Selects all customers from table Sales that have made more than 5 orders.
+What does the keyword ESCAPE mean? | The keyword ESCAPE is used to match any string that contains the characters "%" or "_"
+What is a "join"? | ëjoiní used to connect two or more tables logically with or without common field(s)
+What is a database? | A database is a collection of information that is organized so that it can easily be accessed, managed, and updated
+what is a functional dependency?|a->b occurs when the attribute a uniquely determines b
+what is a graph database|none of the other
+What is a key attribute in a relation? | A key attribute is an attribute that belongs to one of the keys of the relation
+what is a primary key|.. that uniquely defines the row in the table
+What is a view? |A view is a virtual table which results of executing a pre-compiled query. A view is not a part of the physical database schema, while the regular tables are.
+What is an Entity Set? | It is a collection (set) of entities that have same attributes
+What is an entity? | an entity is an existing or real thing
+What is an index? | An index is a data structure that makes it efficient to find tuples 
+What is another term for a row in a relational table? | Tuple
+What is difference between PRIMARY KEY and UNIQUE KEY ? | A table can have more than one UNIQUE KEY constraint but only one PRIMARY KEY
+What is relation instance? | a set of tuples for a given relation
+What is the condition that a relation schema R is in BCNF (Boyce-Codd Normal Form)? | It is in 3NF and satisfies an additional constraint that for every non-trivial FD: X->A, X must be a candidate key
+What is the difference between the 2NF and the 3NF? | 2NF deals with partial functional dependency, while 3NF deals with transitive functional dependency
+What is the difference between Where and Having Clause? |WHERE is for Rows and HAVING is for Groups
+What is the father of relational data model?|Adgar Codd
+What is the goal of decomposition when designing a database? | The goal of decomposition is to replace a relation by several relations that do not exhibit anomalies
+What is the hierarchical data model? | A hierarchical data model is a data model in which the data is organized into a tree-like structure
+What is the meaning of the DATEADD function|The DATEADD function adds an interval to a date you specify
+What is the meaning of the ISNULL function?|The ISNULL function replaces NULL with the BLANK value
+What is the meaning of the LEN function in SQL Server?|The LEN function returns the total number of characters of a string
+What is the oldest data model?|Network Data Model
+what is the wildcards use for pattern matching| "_" single character
+What one is a wildcard used for pattern matching? | "%"
+What operator tests column for the absence of data? |IS NULL operator
+What structure can you implement for the database to speed up table reads? |indexes
+When create stored procedures, the "WITH ENCRYPTION" option indicates that SQL Serverwill convert the original text of the CREATE PROCEDURE statement to an obfuscated |TRUE
+When declaring foreign key constraint for relation A thai references relation B. the referenced attnbute(s) ofthe relation B must be declare as|UNIQUE or PRIMARY KEY
+When draw an ERD (choose 2)|We should picking the right kind of element;When an entity has no non-primary key attribute, we should convert that entity to an attribute
+When draw an ERD (choose 3): |Choosing the right relation-ships,Avoid introducing more elements into the design than is absolutely necessary,Entity sets and their attributes should reflect reality
+When drawing an ERD | Entity Redundancy Choosing
+When drawing ERD. you should avoid drawing entities that can not be uniquely identified by their own attributes|Limit the use of weak entity sets principl
+When drawing ERD. you should avoid introducing more elements into your design than necessary".That above statement describes which principle|Simplicity Count Principle
+When join R and S, we want to display all the records in R we must use: |LEFT OUTER JOIN
+When performing a table scan, the query optimizer reads all the rows in the table, and extracts the rows that meet the criteria of the query. A table scan generates any disk I/O operations and can be resource -intensive|FALSE
+When sorting. Null values are treated as the lowest possible values|TRUE
+When the Relational Data Model first proposed?|1970
+When we apply set operators (UNION, INTERSECT, EXCEPT) to two relations R and S, which conditions on R and S must be satisfied? | All of the others
+Which is the least dangerous fault that can potentially affect the integrity of a transaction|Phantom rows
+Which is the most dangerous fault that can potentially affect the integrity of a transaction?|Dirty Read
+Which is the result of the query: SELECT COUNT(B) FROM R | 1 (NULL, NULL, 8)
+Which is the subset of SQL commands used to manipulate Database structures, including tables? | DDL (Data Definition Language)
+Which of following is never used as a data model'|None of the others
+which of the following are guidelines for designing a relational schema?|all of other
+Which of the following are guidelines for designing the relational schema ?|All of the above
+Which of the following is in-correct?|SELECT datepart(ë1-jan-09í, day)
+Which of the following is in-correct?|SELECT datepart(ë1-jan-09', month)
+Which of the following is in-correct?|SELECT datepart('1-jan-09', year)
+Which of the following is NOT a standard aggregation operator|GROUP
+Which of the following relations is in Boyce-Codd Normal Form (BCNF)?|R(ABCD) with FD's: BD -> C ; AB -> D ; AC -> B ; BD -> A
+Which of the following relations is in third normal form (3NF)? | R(ABCD) with FD's: ACD -> B; AC -> D; D -> C; AC -> B
+Which of the following relations is in Third normal form (3NF)?|R(ABCD) with FD's: ACD -> B ; AC -> D ; D -> C ; AC -> B
+Which of the following statements are correct?|All relations with only two attributes are in BCNF,For any relation schema, there is a dependency-preserving decomposition into 3NF
+Which of the following statements is the most correct? |a.Poorly designed indexes: All of the others
+Which of the following statements is the most correct|using store All of the others
+Which of the following statements is true?|4NF implies BCNF and BCNF implies 3NF
+Which of the following statements is true?|in BCNF condition:All of the others
+Which of the followings is part of data model? | (Cons,Struct,Ope) All of the others
+Which of the followings is true?|The Entity Relationship (ER) model represents the structure of data graphically
+Which one of the following is NOT a DML command? | GRANT and alter table
+Which SQL keyword is used to sort the result-set? | ORDER BY
+Which statement is used to add a column named D into the relation R? | ALTER TABLE R ADD D [DataType];
+Which statement is used to remove a column named D from the relation R? | ALTER TABLE R DROP COLUMN D;
+Why we should use stored procedures?|All of the others
+With SQL, how do you select all the records from a table named "Persons" where the value of the column "FirstName" starts with an "a"?  |SELECT * FROM Persons WHERE FirstName LIKE 'a%'
+XML files are semi-structured data|True
+You should define the clustered index key with as few columns as possible|TRUE
+___ operators are operators that operate on groups and return a number for each group | Aggregation
+{XY -> ZTV and X -> V}. So, we can say that:|XY is a key for R
+

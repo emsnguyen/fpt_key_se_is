@@ -1,0 +1,10 @@
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoSynchronization\DemoSynchronization\bin\Debug\DemoSynchronization.exe
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoSynchronization\DemoSynchronization\bin\Debug\DemoSynchronization.pdb
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoSynchronization\DemoSynchronization\obj\Debug\DemoSynchronization.exe
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoSynchronization\DemoSynchronization\obj\Debug\DemoSynchronization.pdb
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoSynchronization\DemoSynchronization\bin\Debug\DemoSynchronization.exe
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoSynchronization\DemoSynchronization\bin\Debug\DemoSynchronization.pdb
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoSynchronization\DemoSynchronization\obj\Debug\DemoSynchronization.csprojAssemblyReference.cache
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoSynchronization\DemoSynchronization\obj\Debug\DemoSynchronization.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoSynchronization\DemoSynchronization\obj\Debug\DemoSynchronization.exe
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoSynchronization\DemoSynchronization\obj\Debug\DemoSynchronization.pdb

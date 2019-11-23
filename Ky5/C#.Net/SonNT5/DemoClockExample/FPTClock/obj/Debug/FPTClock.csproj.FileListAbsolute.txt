@@ -1,0 +1,11 @@
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoClockExample\FPTClock\bin\Debug\FPTClock.dll
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoClockExample\FPTClock\bin\Debug\FPTClock.pdb
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoClockExample\FPTClock\obj\Debug\FPTClock.csprojResolveAssemblyReference.cache
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoClockExample\FPTClock\obj\Debug\FPTClock.dll
+E:\FU\HoaLac\PRN292\PE\SE1204\DemoClockExample\FPTClock\obj\Debug\FPTClock.pdb
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoClockExample\FPTClock\bin\Debug\FPTClock.dll
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoClockExample\FPTClock\bin\Debug\FPTClock.pdb
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoClockExample\FPTClock\obj\Debug\FPTClock.csprojAssemblyReference.cache
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoClockExample\FPTClock\obj\Debug\FPTClock.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoClockExample\FPTClock\obj\Debug\FPTClock.dll
+C:\Users\lenovo\Downloads\C#.Net\SonNT5\DemoClockExample\FPTClock\obj\Debug\FPTClock.pdb

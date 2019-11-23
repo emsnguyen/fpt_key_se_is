@@ -1,0 +1,29 @@
+D:\Learning Material\PRN292 - DuyDT\Projects\Q3 Demo\Q3 Demo\bin\Debug\Q3 Demo.exe.config
+D:\Learning Material\PRN292 - DuyDT\Projects\Q3 Demo\Q3 Demo\bin\Debug\Q3 Demo.exe
+D:\Learning Material\PRN292 - DuyDT\Projects\Q3 Demo\Q3 Demo\bin\Debug\Q3 Demo.pdb
+D:\Learning Material\PRN292 - DuyDT\Projects\Q3 Demo\Q3 Demo\obj\Debug\Q3 Demo.csprojResolveAssemblyReference.cache
+D:\Learning Material\PRN292 - DuyDT\Projects\Q3 Demo\Q3 Demo\obj\Debug\Q3_Demo.Form1.resources
+D:\Learning Material\PRN292 - DuyDT\Projects\Q3 Demo\Q3 Demo\obj\Debug\Q3_Demo.Properties.Resources.resources
+D:\Learning Material\PRN292 - DuyDT\Projects\Q3 Demo\Q3 Demo\obj\Debug\Q3 Demo.csproj.GenerateResource.Cache
+D:\Learning Material\PRN292 - DuyDT\Projects\Q3 Demo\Q3 Demo\obj\Debug\Q3 Demo.exe
+D:\Learning Material\PRN292 - DuyDT\Projects\Q3 Demo\Q3 Demo\obj\Debug\Q3 Demo.pdb
+E:\WF1-AddAdvancedAccount\Q3 Demo\Q3 Demo\bin\Debug\Q3 Demo.exe.config
+E:\WF1-AddAdvancedAccount\Q3 Demo\Q3 Demo\bin\Debug\Q3 Demo.exe
+E:\WF1-AddAdvancedAccount\Q3 Demo\Q3 Demo\bin\Debug\Q3 Demo.pdb
+E:\WF1-AddAdvancedAccount\Q3 Demo\Q3 Demo\obj\Debug\Q3 Demo.csprojAssemblyReference.cache
+E:\WF1-AddAdvancedAccount\Q3 Demo\Q3 Demo\obj\Debug\Q3_Demo.Form1.resources
+E:\WF1-AddAdvancedAccount\Q3 Demo\Q3 Demo\obj\Debug\Q3_Demo.Properties.Resources.resources
+E:\WF1-AddAdvancedAccount\Q3 Demo\Q3 Demo\obj\Debug\Q3 Demo.csproj.GenerateResource.cache
+E:\WF1-AddAdvancedAccount\Q3 Demo\Q3 Demo\obj\Debug\Q3 Demo.csproj.CoreCompileInputs.cache
+E:\WF1-AddAdvancedAccount\Q3 Demo\Q3 Demo\obj\Debug\Q3 Demo.exe
+E:\WF1-AddAdvancedAccount\Q3 Demo\Q3 Demo\obj\Debug\Q3 Demo.pdb
+C:\Users\lenovo\Downloads\C#.Net\PE\WF1-AddAdvancedAccount\Q3 Demo\Q3 Demo\bin\Debug\Q3 Demo.exe.config
+C:\Users\lenovo\Downloads\C#.Net\PE\WF1-AddAdvancedAccount\Q3 Demo\Q3 Demo\bin\Debug\Q3 Demo.exe
+C:\Users\lenovo\Downloads\C#.Net\PE\WF1-AddAdvancedAccount\Q3 Demo\Q3 Demo\bin\Debug\Q3 Demo.pdb
+C:\Users\lenovo\Downloads\C#.Net\PE\WF1-AddAdvancedAccount\Q3 Demo\Q3 Demo\obj\Debug\Q3 Demo.csprojAssemblyReference.cache
+C:\Users\lenovo\Downloads\C#.Net\PE\WF1-AddAdvancedAccount\Q3 Demo\Q3 Demo\obj\Debug\Q3_Demo.Form1.resources
+C:\Users\lenovo\Downloads\C#.Net\PE\WF1-AddAdvancedAccount\Q3 Demo\Q3 Demo\obj\Debug\Q3_Demo.Properties.Resources.resources
+C:\Users\lenovo\Downloads\C#.Net\PE\WF1-AddAdvancedAccount\Q3 Demo\Q3 Demo\obj\Debug\Q3 Demo.csproj.GenerateResource.cache
+C:\Users\lenovo\Downloads\C#.Net\PE\WF1-AddAdvancedAccount\Q3 Demo\Q3 Demo\obj\Debug\Q3 Demo.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Downloads\C#.Net\PE\WF1-AddAdvancedAccount\Q3 Demo\Q3 Demo\obj\Debug\Q3 Demo.exe
+C:\Users\lenovo\Downloads\C#.Net\PE\WF1-AddAdvancedAccount\Q3 Demo\Q3 Demo\obj\Debug\Q3 Demo.pdb

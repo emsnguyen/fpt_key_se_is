@@ -1,0 +1,7 @@
+C:\Users\lenovo\Downloads\C#.Net\PE\PRN292_SU17\MySubmission\B\Q3\bin\Q3.dll.config
+C:\Users\lenovo\Downloads\C#.Net\PE\PRN292_SU17\MySubmission\B\Q3\bin\Q3.dll
+C:\Users\lenovo\Downloads\C#.Net\PE\PRN292_SU17\MySubmission\B\Q3\bin\Q3.pdb
+C:\Users\lenovo\Downloads\C#.Net\PE\PRN292_SU17\MySubmission\B\Q3\obj\Debug\Q3.csprojAssemblyReference.cache
+C:\Users\lenovo\Downloads\C#.Net\PE\PRN292_SU17\MySubmission\B\Q3\obj\Debug\Q3.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Downloads\C#.Net\PE\PRN292_SU17\MySubmission\B\Q3\obj\Debug\Q3.dll
+C:\Users\lenovo\Downloads\C#.Net\PE\PRN292_SU17\MySubmission\B\Q3\obj\Debug\Q3.pdb

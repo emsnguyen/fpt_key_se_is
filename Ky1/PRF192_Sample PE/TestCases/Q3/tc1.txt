@@ -1,0 +1,11 @@
+INPUT:
+1
+hello world how are you
+OUTPUT:
+are hello how world you
+REMOVE_SPACES:
+NO
+CASE_SENSITIVE:
+YES
+MARK:
+1

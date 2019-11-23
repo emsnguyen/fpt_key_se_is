@@ -1,0 +1,52 @@
+1 A
+2 C (vi` dele by merge thi chuyen node ben trai len , con` breadth-fisrt thi duyet tren xuong trai phai)
+3 7 (da~ test du` 1 dong quiz(x/2) thi van~ ra la 7)
+6 -- C
+7 --A
+9 B
+10 D
+11 C
+12 A
+13 C
+14 A
+15 A
+17 A
+18 D
+19 A
+20 A or C
+21 C (thu? code ra se~ loi o? ham for)
+22 A
+23 A
+24 B
+25 C -( da code )
+27 de` sai ???? or the? la 24
+28 B (D) vi B,D giong' nhau 
+29 
+30 B
+31 A (??)
+32 True(?)
+33 A (?)
+34A
+37 O(n)  -(Nghia lam)
+40 C
+41 O(nlogn) 33-sorting
+42 A
+44 A
+45 A
+46 D
+47 D
+48- A -- 6 -stack
+
+
+
+
+
+
+
+
+
+
+
+
+
+

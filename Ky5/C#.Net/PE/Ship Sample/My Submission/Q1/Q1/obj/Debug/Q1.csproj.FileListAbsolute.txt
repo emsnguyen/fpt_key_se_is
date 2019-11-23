@@ -1,0 +1,6 @@
+C:\Users\lenovo\Downloads\C#.Net\Sample PE\SE05583_MienNTH_PRN292\Q1\Q1\bin\Debug\Q1.exe
+C:\Users\lenovo\Downloads\C#.Net\Sample PE\SE05583_MienNTH_PRN292\Q1\Q1\bin\Debug\Q1.pdb
+C:\Users\lenovo\Downloads\C#.Net\Sample PE\SE05583_MienNTH_PRN292\Q1\Q1\obj\Debug\Q1.csprojAssemblyReference.cache
+C:\Users\lenovo\Downloads\C#.Net\Sample PE\SE05583_MienNTH_PRN292\Q1\Q1\obj\Debug\Q1.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Downloads\C#.Net\Sample PE\SE05583_MienNTH_PRN292\Q1\Q1\obj\Debug\Q1.exe
+C:\Users\lenovo\Downloads\C#.Net\Sample PE\SE05583_MienNTH_PRN292\Q1\Q1\obj\Debug\Q1.pdb

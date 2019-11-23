@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/AirlineTicketManager03">
+    <Environment name="username" value="sa" type="java.lang.String"></Environment>
+    <Environment name="password" value="12345" type="java.lang.String"></Environment>
+    <Environment name="dbName" value="TicketManagement" type="java.lang.String"></Environment>
+    <Environment name="servername" value="localhost" type="java.lang.String"></Environment>
+    <Environment name="port" value="1433" type="java.lang.String"></Environment>
+</Context>

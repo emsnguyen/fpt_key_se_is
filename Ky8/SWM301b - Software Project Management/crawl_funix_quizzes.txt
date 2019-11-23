@@ -1,0 +1,22 @@
+let dataCrawl = localStorage.getItem("dataCrawl") || "";
+let lessonCrawl = localStorage.getItem("lessonCrawl") || "";
+let lesson = document.getElementsByClassName("hd hd-2 unit-title")[0].innerText;
+lessonCrawl += lessonCrawl === "" ? lesson : `, ${lesson}`;
+localStorage.setItem("lessonCrawl", lessonCrawl);
+let containers = document.getElementsByClassName("wrapper-problem-response");
+for (let i = 0; i < containers.length; i++) {
+    let correct = "Ans:";
+    let count = 0;
+    containers.item(i).getElementsByTagName("fieldset").item(0).childNodes.forEach(con => {
+        let ansCode = String.fromCharCode(65 + count);
+        if (con.tagName === "LEGEND") dataCrawl += `\n${con.innerText}`;
+        if (con.className === "field") {
+            if (con.childNodes[1].childNodes[1].checked) correct += correct === "Ans:" ? ansCode : `, ${ansCode}`;
+            dataCrawl += `\n${ansCode}. ${con.childNodes[1].childNodes[2].nodeValue.trim()}`;
+            count += 1;
+        }
+    });
+    dataCrawl += `\n${correct}\n`;
+    localStorage.setItem("dataCrawl", dataCrawl);
+}
+console.log(dataCrawl);

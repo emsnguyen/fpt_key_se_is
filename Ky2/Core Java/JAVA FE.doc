@@ -1,0 +1,2183 @@
+Question No :1
+Read this piece of code carefully  
+if("String".toString() == "String") 
+System.out.println("Equal"); 
+		else 
+System.out.println("Not Equal"); 
+(Choose correct one from multiple below)
+1. the code will compile an print "Equal".
+2. the code will compile an print "Not Equal". 
+3. Not Compile
+4. None
+correct is :1
+------------------------------------------------------------------------------
+Question No :2
+Read this piece of code carefully  
+	if("String".trim() == "String")	 
+	System.out.println("Equal"); 
+		else 
+	System.out.println("Not Equal"); 
+(Choose correct one from multiple below)
+1. the code will compile an print "Equal".
+2. the code will compile an print "Not Equal".
+3. Not Complile
+4. None
+correct is :1
+------------------------------------------------------------------------------
+Question No :3
+public class Test { 
+	
+		public static void main(String args[]){  
+			Test question = new Test();  
+			question.method(null); 	 
+		} 
+
+
+		public void method(Object o){  
+			System.out.println("Object Verion");  
+		}  
+		public void method(String s){  
+			System.out.println("String Version");  
+		} 
+
+} 
+(Choose correct one from multiple below)
+1. The code does not compile
+2. The code compiles cleanly and shows "Object Version". 
+3. The code compiles cleanly and shows "String Version"
+4. The code throws an Exception at Runtime. 
+correct is :3
+------------------------------------------------------------------------------
+Question No :4
+public class Test { 
+	 
+		public static void main(String args[]){  
+			Test question = new Test();  
+			question.method(null);	  
+		} 
+
+
+		public void method(StringBuffer  o){  
+			System.out.println("Object Verion");  
+		}  
+		public void method(String s){  
+			System.out.println("String Version");  
+		} 
+
+} 
+(Choose correct one from multiple below)
+1. The code does not compile
+2. The code compiles cleanly and shows "StringBuffer Version". 
+3. The code compiles cleanly and shows "String Version" 
+4. The code throws an Exception at Runtime
+correct is :1
+------------------------------------------------------------------------------
+Question No :5
+Read the following code below.  
+
+public interface AQuestion{  
+	public abstract void someMethod() throws Exception;  
+}  
+
+A Class implementing this interface should  
+(Choose correct one from multiple below)
+1. Necessarily be an abstract class.
+2. Should have the method public abstract void someMethod(); 
+3. Should have the method public void someMethod() which has to throw an exception which is a subclass of java.lang.Exception.
+4. Should have the method public void someMethod() which need not throw an Exception
+correct is :4
+------------------------------------------------------------------------------
+Question No :6
+An Interface can never be private or protected. 
+(Choose correct one from multiple below)
+1. true
+2. false
+3. None
+4. 1 or 2
+correct is :1
+------------------------------------------------------------------------------
+Question No :7
+A String Class
+(Choose correct one from multiple below)
+1. final
+2. non final
+3. Serializable
+4. 1 and 3
+correct is :4
+------------------------------------------------------------------------------
+Question No :8
+public class AQuestion{  
+	private int i = j;  
+	private int j = 10;  
+	public static void main(String args[]){  
+		System.out.println((new AQuestion()).i);  
+	} 
+} 
+(Choose correct one from multiple below)
+1. 10
+2. Comiplation error
+3. 0
+4. None
+correct is :2
+------------------------------------------------------------------------------
+Question No :9
+for(int i = 0; i < 3; i++) {  
+				try {  
+				for(int j = 0; j < 3; j++) {  
+				if (i==j) continue;  
+				else if (i>j) continue ;  
+				System.out.print("A ");  
+				}  
+				}  
+				finally {  
+				System.out.print("B ");  
+				}  
+				System.out.print("C ");  
+				}  
+What is the output? 
+(Choose correct one from multiple below)
+1. Compile Error. finally not allowed.
+2. A A B C A B C B C
+3. A A C A  C  C
+4. None
+correct is :2
+------------------------------------------------------------------------------
+Question No :10
+int count=0, i=0;  
+			do {  
+			count *= i;  
+			i++;  
+			if(count == 1) continue;  
+			count++;  
+			} while(i<3); 
+			System.out.println(count); 
+What is the output? 
+(Choose correct one from multiple below)
+1. 4
+2. 2
+3. 3
+4. 5
+correct is :3
+------------------------------------------------------------------------------
+Question No :11
+int count=0;  
+			if(check4Biz("abc").equals("Y") || count == 2) {}  
+
+Referring to the above, what datatype is returned by method check4Biz()?  
+(Choose correct one from multiple below)
+1. String
+2. char
+3. Object
+4. 1 and 3
+correct is :4
+------------------------------------------------------------------------------
+Question No :12
+	int a = 7; 
+			int b = 4; 
+			a = b; 
+			a = a + 1; 
+			System.out.println(a); 
+	what will be the output ?
+(Choose correct one from multiple below)
+1. 8
+2. 5
+3. 7
+4. 4
+correct is :2
+------------------------------------------------------------------------------
+Question No :13
+What is the output?  
+System.out.println("The answer is: "+18+3);
+(Choose correct one from multiple below)
+1. 21
+2. 183
+3. Comiple Error
+4. None
+correct is :2
+------------------------------------------------------------------------------
+Question No :14
+What is the value of p?  
+
+int p = 10 / 3;
+
+
+(Choose correct one from multiple below)
+1. 3
+2. 3.33333
+3. 0
+4. 1
+correct is :1
+------------------------------------------------------------------------------
+Question No :15
+What is the value of y?  
+
+int y = 19 % 4;
+
+
+(Choose correct one from multiple below)
+1. 3
+2. 4
+3. 2
+4. Compile Error
+correct is :1
+------------------------------------------------------------------------------
+Question No :16
+What is the value of y? 
+
+int y = 2 % 4;
+
+
+(Choose correct one from multiple below)
+1. 0
+2. 2
+3. 4
+4. Compile Error
+correct is :2
+------------------------------------------------------------------------------
+Question No :17
+int j;  
+for(int i=0;i<14;i++) {  
+if(i<10) {  
+j = 2 + i;  
+}  
+System.out.println("j: " + j + " i: " + i);  
+}  
+What is WRONG with the above code?  
+(Choose correct one from multiple below)
+1. Integer "j" is not initialized.
+2. Nothing. 
+3. You cannot declare integer i inside the for-loop declaration
+4. The syntax of the "if" statement is incorrect
+correct is :1
+------------------------------------------------------------------------------
+Question No :18
+int values[] = {1,2,3,4,5,6,7,8};  
+for(int i=0;i< X; ++i)  
+System.out.println(values[i]);  
+Referring to the above, what value for X will print all members of array "values"?  
+
+(Choose correct one from multiple below)
+1. 7
+2. 8
+3. 9
+4. 10
+correct is :2
+------------------------------------------------------------------------------
+Question No :19
+Which code declares class A to belong to the mypackage.financial package?
+(Choose correct one from multiple below)
+1. package mypackage; <br> package financial;
+2. import *.*; 
+3. import mypackage.financial.*;
+4. None of the above
+correct is :3
+------------------------------------------------------------------------------
+Question No :20
+class Class1 {  
+ public static void main(String args[]) {  
+ int total = 0;  
+			 int[] i = new int[3];  
+			 for(int j=1;j<= i.length; j++)  
+			 total += (i[j] = j);  
+			 System.out.println(total); 
+
+	} 
+	} 
+
+	What is the output ? 
+(Choose correct one from multiple below)
+1. 3
+2. 4
+3. 6
+4. The system will throw an ArrayIndexOutOfBoundsException
+correct is :4
+------------------------------------------------------------------------------
+Question No :21
+class A {  
+B b = new B();  
+C c = (C) b;  
+}  
+Referring to the above, when is the cast of "b" to class C allowed?  
+(Choose correct one from multiple below)
+1. B and C are subclasses of the same superclass. 
+2. If B and C are superclasses of the same subclass
+3. B is a subclass of C. 
+4. B is a superclass of C.
+correct is :3
+------------------------------------------------------------------------------
+Question No :22
+Which java.sql class can return multiple result sets? 
+
+(Choose correct one from multiple below)
+1. Statement 
+2. PreparedStatement
+3. CallableStatement
+4. None
+correct is :1
+------------------------------------------------------------------------------
+Question No :23
+try{ 
+				File f = new File("a.txt"); 
+			}catch(Exception e){ 
+				 
+			}catch(IOException io){ 
+				 
+			} 
+Is this code create new file name a.txt ?
+(Choose correct one from multiple below)
+1. True
+2. False
+3. Compilation Error
+4. None
+correct is :3
+------------------------------------------------------------------------------
+Question No :24
+How can you have a "try" block that invokes methods that throw two different exceptions? 
+
+(Choose correct one from multiple below)
+1. Catch one exception in a "catch" block and the other in a "finally" block. 
+2. Include a "catch" block for each exception.
+3. Not Possible in Java
+4. Catch one exception in a "catch" block and the other via the return value.
+correct is :2
+------------------------------------------------------------------------------
+Question No :25
+Is the code compile ?
+
+try{ 
+				 
+			}catch(IOException e){ 
+				 
+			} 
+(Choose correct one from multiple below)
+1. Yes
+2. No
+3. None
+4. None
+correct is :2
+------------------------------------------------------------------------------
+Question No :26
+Which one of the following is the equivalent of main() in a thread?
+(Choose correct one from multiple below)
+1. start()
+2. run()
+3. go()
+4. begin()
+correct is :2
+------------------------------------------------------------------------------
+Question No :27
+What happens if a class defines a method with the same name and parameters as a method in its superclass? 
+
+(Choose correct one from multiple below)
+1. The compiler automatically renames the subclass method. 
+2. The program runs since because overriding methods is allowed 
+3. The program throws a DuplicateMethod exception. 
+4. The compiler shows a DuplicateMethod error. 
+correct is :2
+------------------------------------------------------------------------------
+Question No :28
+public class C { 
+	 
+	static int getIt(int i) {  
+		return i;  
+	} 
+
+} 
+What is a consequence of "static" in the code above? 
+
+(Choose correct one from multiple below)
+1. getIt() returns a static int 
+2. getIt() can only access static properties of class C
+3. getIt() is invoked only by other static methods 
+4. Subclasses of class A must override method getIt() 
+correct is :1
+------------------------------------------------------------------------------
+Question No :29
+try {  
+int values[] = {1,2,3,4,3,2,1};  
+for (int i = values.length-1; i >= 0; i++)  
+System.out.print( values[i] + " " );  
+} catch (Exception e) {  
+System.out.print("2" + " ");  
+} finally {  
+System.out.print("3" + " ");  
+}  
+What is the output ?  
+(Choose correct one from multiple below)
+1. 1 2 3 4 3 2 1 
+2. 1 2
+3. 1 3
+4. 1 2 3
+correct is :4
+------------------------------------------------------------------------------
+Question No :30
+Which one of the following is a limitation of subclassing the Thread class?
+(Choose correct one from multiple below)
+1. You must catch the ThreadDeath exception. 
+2. You must implement the Threadable interface. 
+3. You cannot have any static methods in the class
+4. You cannot subclass any other class. 
+correct is :4
+------------------------------------------------------------------------------
+Question No :31
+String s1 = new String("ryjukjkhj");  
+			String s2 = new String(" java test");  
+
+			String s3;  
+			s3=s1.substring(1,5) + s2.toUpperCase().trim().substring(1,5); 
+			System.out.println(s3); 
+
+			What is the output ?
+(Choose correct one from multiple below)
+1. yjukAVAV
+2. yjukAVA
+3. yjukVA
+4. none
+correct is :2
+------------------------------------------------------------------------------
+Question No :32
+import java.io.*; 
+class Player {  
+ Player() { System.out.print("p"); } 
+} 
+class CardPlayer extends Player implements Serializable { 
+ CardPlayer() { System.out.print("c"); } 
+ public static void main(String[] args) { 
+   CardPlayer c1 = new CardPlayer(); 
+   try { 
+     FileOutputStream fos = new FileOutputStream("play.txt"); 
+     ObjectOutputStream os = new ObjectOutputStream(fos); 
+     os.writeObject(c1); 
+     os.close(); 
+     FileInputStream fis = new FileInputStream("play.txt"); 
+     ObjectInputStream is = new ObjectInputStream(fis); 
+     CardPlayer c2 = (CardPlayer) is.readObject(); 
+     is.close(); 
+   } catch (Exception x ) { } 
+ } 
+} 
+
+What is the result? 
+(Choose correct one from multiple below)
+1. pc
+2. pcc
+3. pcp
+4. pcpc
+correct is :3
+------------------------------------------------------------------------------
+Question No :33
+URLConnection instance represents a link for accessing or communicating with the resource at the location?
+(Choose correct one from multiple below)
+1. true
+2. false
+3. can't say
+4. none of the above
+correct is :1
+------------------------------------------------------------------------------
+Question No :34
+The______________ listener is notified when attributes are added to, removed from, or replaced in the Servlet context. 
+
+ 
+
+(Choose correct one from multiple below)
+1. Session Attribute
+2. Servlet context attribute
+3. Session Listeners
+4. Session context Listeners
+correct is :2
+------------------------------------------------------------------------------
+Question No :35
+Which code segment could execute the stored procedure "countRecs()" located in a database server? 
+
+(Choose correct one from multiple below)
+1. Statement stmt = connection.createStatement(); Statement stmt = connection.createStatement(); 
+2. CallableStatement cs = con.prepareCall("{call COUNTRECS}"); 
+3. StoreProcedureStatement spstmt = connection.createStoreProcedure("countRecs()"); 
+4. Statement stmt = connection.createStatement();stmt.executeStoredProcedure("countRecs()"); 
+correct is :2
+------------------------------------------------------------------------------
+Question No :36
+public class A{
+ private  void test1(){
+		
+		System.out.println("test1 A");
+	}
+}
+
+
+public class B extends A{
+public  void test1(){
+	
+	System.out.println("test1 B");
+}
+}
+
+public class outputtest{
+ public static void main(String[] args){
+ A b = new B();
+        b.test1();
+
+}
+}
+
+What is the output?
+       
+(Choose correct one from multiple below)
+1. test1 A
+2. test1 B
+3. Not complile because test1() method in class A is not visible.
+4. None of the above
+correct is :3
+------------------------------------------------------------------------------
+Question No :37
+public class A{
+ private  void test1(){
+		
+		System.out.println("test1 A");
+	}
+}
+
+
+public class B extends A{
+public  void test1(){
+	
+	System.out.println("test1 B");
+}
+}
+
+public class Test{
+public static void main(String[] args){
+            B b = new B();
+            b.test1();                        
+
+}
+}
+
+What is the output?
+(Choose correct one from multiple below)
+1. test1 B
+2. test1 A
+3. Not complile because test1() method in class A is not visible
+4. None of the above
+correct is :1
+------------------------------------------------------------------------------
+Question No :38
+public class A{
+ public void test1(){
+		
+		System.out.println("test1 A");
+	}
+}
+
+
+public class B extends A{
+public  void test1(){
+	
+	System.out.println("test1 B");
+}
+}
+
+public class Test{
+public static void main(String[] args){
+A b = new B();
+        b.test1();                          
+
+}
+}
+
+What is the output?
+
+(Choose correct one from multiple below)
+1. test1 B
+2. test1 A
+3. Not complile because test1() method in class A is not visible
+4. None of the above
+correct is :1
+------------------------------------------------------------------------------
+Question No :39
+Which statement is correct ?
+(Choose correct one from multiple below)
+1. If super class has different constructor  other then default then in the sub class you can use default constructor
+2. If super class has different constructor  other then default then in the sub class you can?t use default constructor
+3. Both are true
+4. none of the above
+correct is :2
+------------------------------------------------------------------------------
+Question No :40
+public class C {
+	
+	public C(int i){
+		
+	}
+
+}
+
+public class D extends C {
+	
+	public D(){
+		
+	}
+
+}
+Does the above code compile ?
+(Choose correct one from multiple below)
+1. Not compile
+2. compile
+3. Can't say
+4. None of the above
+correct is :1
+------------------------------------------------------------------------------
+Question No :41
+public class C {
+	
+	public C(int i){
+		
+	}
+
+}
+public class D extends C {
+		public D(int i){
+		super(i);
+			}
+
+}
+Does the above code compile ?
+(Choose correct one from multiple below)
+1. Not compile
+2. compile
+3. Exception on runtime.
+4. None of the above
+correct is :2
+------------------------------------------------------------------------------
+Question No :42
+public class C {
+	
+	public C(){
+	System.out.println("C");
+	
+	}
+
+}
+
+public class D extends C {
+	
+	public D(int i){
+		
+		System.out.println("D-I");
+	}
+	
+	public D(int i, int j){
+		
+		System.out.println("D-I-J");
+	}
+
+}
+
+public class Test{
+public static void main(String[] args){
+C c = new D();  
+}
+}
+
+What is the output ?
+
+
+(Choose correct one from multiple below)
+1. D-I-J
+2. D-I
+3. C
+4. NOT COMPILE because D don?t have default constructor
+correct is :4
+------------------------------------------------------------------------------
+Question No :43
+What is the output?
+                   Integer i = new Integer(42);
+		   Long l = new Long(42);
+		   Double d1 = new Double(42.0);
+		   
+		   if(i.equals(l)){
+		   	System.out.println("int true");
+		   }
+		   if(i.equals(d1)){
+		   	System.out.println("int true");
+		   }
+
+(Choose correct one from multiple below)
+1. int true
+2. int true
+3. No Result
+4. None of the above
+correct is :3
+------------------------------------------------------------------------------
+Question No :44
+What will happen when you attempt to compile and run the following code?
+
+public class Static
+{
+	static
+	{
+		int x = 5;
+	}
+
+	static int x,y;
+	public static void main(String args[])
+	{
+        		x--;
+		        myMethod();
+        		System.out.println(x + y + ++x);
+	}
+
+	public static void myMethod()
+	{
+		 y = x++ + ++x;
+	}
+}
+(Choose correct one from multiple below)
+1. 1
+2. 2
+3. 3
+4. 7
+correct is :4
+------------------------------------------------------------------------------
+Question No :45
+Given the following code, what will be the output?
+
+class Value
+{
+	public int i = 15;
+}
+
+public class Test
+{
+	public static void main(String argv[])
+	{
+         Test t = new Test();
+		 t.first();
+    }
+
+	public void first()
+	{
+       	 	int i = 5;
+         	Value v = new Value();
+		 v.i = 25;
+		 second(v, i);
+    	 	System.out.println(v.i);
+
+	}
+
+	public void second(Value v, int i)
+	{
+		i = 0;
+        	 v.i = 20;
+		 Value val = new Value();
+        	 v =  val;
+	    	 System.out.println(v.i + " " + i);
+                 
+	}
+}
+(Choose correct one from multiple below)
+1. 15 0 20
+2. 15 0 15
+3. 20 0 20
+4. 0 15 20
+correct is :1
+------------------------------------------------------------------------------
+Question No :46
+What will happen when you attempt to compile and run the following code?
+
+class MyParent 
+{
+	int x, y;
+	MyParent(int x, int y)
+	{
+		this.x = x;
+		this.y = y;
+	}
+	public int addMe(int x, int y)
+	{
+		return this.x + x + y + this.y;
+	}
+	public int addMe(MyParent myPar)
+	{
+		return addMe(myPar.x, myPar.y);
+	}
+}
+
+class MyChild extends MyParent
+{
+	int z;
+	MyChild (int x, int y, int z)
+	{
+		super(x,y);
+		this.z = z;
+	}
+	public int addMe(int x, int y, int z)
+	{
+		return this.x + x + this.y + y + this.z + z;
+	}
+	public int addMe(MyChild myChi)
+	{
+		return addMe(myChi.x, myChi.y, myChi.z);
+	}
+	public int addMe(int x, int y)
+	{
+		return this.x + x + this.y + y;
+	}
+}
+
+public class MySomeOne
+{
+	public static void main(String args[])
+	{
+		MyChild myChi = new MyChild(10, 20, 30);
+		MyParent myPar = new MyParent(10, 20);
+		int x = myChi.addMe(10, 20, 30);
+		int y = myChi.addMe(myChi);
+		int z = myPar.addMe(myPar);
+		System.out.println(x + y + z);
+	}
+}
+
+(Choose correct one from multiple below)
+1. 300
+2. 240
+3. 120
+4. 180
+correct is :1
+------------------------------------------------------------------------------
+Question No :47
+What will be the result of executing the following code?
+
+1.    boolean a = true;
+2.    boolean b = false;
+3.    boolean c = true;
+4.    if (a == true)
+5.    if (b == true)
+6.    if (c == true)          	System.out.println("Some things are true in this world");
+7.    else                    		System.out.println("Nothing is true in this world!");
+8.    else if (a && (b = c))  	System.out.println("It's too confusing to tell what is true and what is false");
+9.    else                    		System.out.println("Hey this won't compile");
+(Choose correct one from multiple below)
+1. The code won't compile
+2. "Some things are true in this world" will be printed
+3. "Hey this won't compile" will be printed
+4. None of these
+correct is :4
+------------------------------------------------------------------------------
+Question No :48
+What will happen when you attempt to compile and run the following code?
+
+interface MyInterface
+{
+}
+
+public class MyInstanceTest implements MyInterface
+{
+	static String s;
+
+	public static void main(String args[])
+	{
+		MyInstanceTest t = new MyInstanceTest();
+
+		if(t instanceof MyInterface)
+		{
+			System.out.println("I am true interface");
+		}
+		else 
+		{
+			System.out.println("I am false interface");
+		}
+
+		if(s instanceof String)
+		{
+			System.out.println("I am true String");
+		}
+		else 
+		{
+			System.out.println("I am false String");
+		}
+	}	
+}
+(Choose correct one from multiple below)
+1. Prints : "I am true interface" followed by " I am true String" 
+2. Prints : "I am false interface" followed by " I am false String" 
+3. Prints : "I am true interface" followed by " I am false String"
+4. Runtime error 
+correct is :3
+------------------------------------------------------------------------------
+Question No :49
+What results from attempting to compile and run the following code?
+
+public class Ternary
+{
+	public static void main(String args[])
+	{
+		int a = 5;
+		System.out.println("Value is - " + ((a < 5) ? 9.9 : 9));
+	}
+}
+
+(Choose correct one from multiple below)
+1. prints: Value is - 9 
+2. prints: Value is - 5 
+3. Compilation error 
+4. None of these
+correct is :4
+------------------------------------------------------------------------------
+Question No :50
+In the following pieces of code, A and D will compile without any error. True/False?
+
+A: StringBuffer sb1 = "abcd"; 
+B: Boolean b = new Boolean("abcd"); 
+C: byte b = 255; 
+D: int x = 0x1234; 
+E: float fl = 1.2;
+(Choose correct one from multiple below)
+1. true
+2. false
+3. none of these 
+4. no idea
+correct is :2
+------------------------------------------------------------------------------
+Question No :51
+Considering the following code, Which variables may be referenced correctly at line 12?
+
+1.	public class Outer
+2.	{
+3.		public int a = 1;
+4.		private int b = 2;
+5.		public void method(final int c)
+6.		{
+7.			int d = 3;
+8.			class Inner
+9.			{
+10.				private void iMethod(int e)
+11. 				{
+12. 
+13.				}
+14.			}
+15.		}
+16.	}
+(Choose correct one from multiple below)
+1. a
+2. b
+3. c
+4. d
+correct is :1
+------------------------------------------------------------------------------
+Question No :52
+What will be the result of executing the following code?
+
+public static void main(String args[])
+{
+    	char digit = 'a';
+    	for (int i = 0; i < 10; i++)
+    	{
+      		switch (digit)
+      		{
+        			case 'x' :
+        			{
+        				int j = 0;
+					System.out.println(j);		
+        			}
+        			default :
+        			{
+        				int j = 100;
+					System.out.println(j);		
+        			}
+      		}
+   	}
+   	
+	int i = j;
+   	System.out.println(i);	
+}
+(Choose correct one from multiple below)
+1. 100 will be printed 10 times and then there will be a runtime exception. 
+2.  The code will not compile because the variable i cannot be declared twice within the main() method. 
+3. The code will not compile because the variable j cannot be declared twice within the switch statement.
+4. None of these.
+correct is :4
+------------------------------------------------------------------------------
+Question No :53
+What will happen when you attempt to compile and run the following code?
+
+class MyThread extends Thread
+{
+	public void run()
+	{
+		System.out.println("MyThread: run()");
+	}
+
+	public void start()
+	{
+		System.out.println("MyThread: start()");
+	}
+}
+
+class MyRunnable implements Runnable
+{
+	public void run()
+	{
+		System.out.println("MyRunnable: run()");
+	}
+
+	public void start()
+	{
+		System.out.println("MyRunnable: start()");
+	}
+}
+
+public class MyTest 
+{
+	public static void main(String args[])
+	{
+		MyThread myThread  =  new MyThread();
+		MyRunnable myRunnable = new MyRunnable();
+		Thread thread  =  new Thread(myRunnable);
+		myThread.start();
+		thread.start();
+	}
+}
+(Choose correct one from multiple below)
+1. Prints : MyThread: start() followed by MyRunnable:run()
+2. Prints : MyThread: run() followed by MyRunnable:start()
+3. Prints : MyThread: start() followed by MyRunnable:start()
+4. Prints : MyThread: run() followed by MyRunnable:run()
+correct is :1
+------------------------------------------------------------------------------
+Question No :54
+Given the code below, and making no other changes, which access modifiers 
+(public, protected or private) can legally be placed before myMethod() on line 3? 
+If line 3 is left as it is, which keywords can legally be placed before myMethod 
+on line 8?
+
+1.	class HumptyDumpty
+2.	{
+3.		void myMethod() {}
+4.	}
+5.
+6.	class HankyPanky extends HumptyDumpty
+7.	{
+8.		void myMethod() {}
+9.	}
+
+(Choose correct one from multiple below)
+1. private or nothing(i.e. leaving it as it is) on line 3. Nothing(i.e. leaving it as it is) or protected or public on line 8.
+2. public or protected on line 3. private or nothing(i.e. leaving it as it is) on line 8. 
+3. nothing(i.e. leaving it as it is) or protected or public on line 3. private or nothing(i.e. leaving it as it is) on line 8.
+4. None of the above.
+correct is :1
+------------------------------------------------------------------------------
+Question No :55
+What will be the result of executing the following code?
+
+// Filename; SuperclassX.java
+package packageX;
+
+public class SuperclassX
+{
+	protected void superclassMethodX()
+	{
+	}
+	int superclassVarX;
+}
+
+
+// Filename SubclassY.java
+1.	package packageX.packageY;
+2.	
+3.	public class SubclassY extends SuperclassX
+4.	{
+5.		SuperclassX objX = new SubclassY();
+6.		SubclassY objY = new SubclassY();
+7.		void subclassMethodY()
+8.		{
+9.			objY.superclassMethodX();
+10.			int i;
+11.			i = objY.superclassVarX;
+12.		}	
+13.	}
+(Choose correct one from multiple below)
+1. What will be the result of executing the following code?
+2. Compilation error at line 9
+3. Runtime exception at line 11
+4. None of these
+correct is :4
+------------------------------------------------------------------------------
+Question No :56
+Consider the class hierarchy shown below:
+		
+	      -------------------------------------------------------------------- 
+class FourWheeler implements DrivingUtilities
+class Car extends FourWheeler
+class Truck extends FourWheeler
+class Bus extends FourWheeler
+class Crane extends FourWheeler
+----------------------------------------------------------------------
+     
+Consider the following code below:
+1.	DrivingUtilities du;
+2.	FourWheeler fw;
+3.	Truck myTruck = new Truck();
+4.	du = (DrivingUtilities)myTruck;
+5.	fw = new Crane();
+6.	fw = du;
+
+Which of the statements below are true?
+
+(Choose correct one from multiple below)
+1. Line 4 will not compile because an interface cannot refer to an object. 
+2. The code will compile and run. 
+3. The code will not compile without an explicit cast at line 6, because going down the hierarchy without casting is not allowed.
+4. The code will compile if we put an explicit cast at line 6 but will throw an exception at runtime.
+correct is :3
+------------------------------------------------------------------------------
+Question No :57
+What results from the following code?
+
+1.	class MyClass
+2.	{
+3.		void myMethod(int i) {System.out.println("int version");}
+4.		void myMethod(String s) {System.out.println("String version");}
+5.		public static void main(String args[])
+6.		{
+7.			MyClass obj = new MyClass();
+8.			char ch = 'c';
+9.			obj.myMethod(ch);
+10.		}
+11.	}
+(Choose correct one from multiple below)
+1. Line 4 will not compile as void methods can't be overridden.
+2. An exception at line 9.
+3. Line 9 will not compile as there is no version of myMethod which takes a char as argument.
+4. The code compiles and produces output: int version.
+correct is :4
+------------------------------------------------------------------------------
+Question No :58
+What is the result when you compile and run the following code? 
+
+public class ThrowsDemo 
+{  
+      	static void throwMethod() 
+		{  
+              		System.out.println("Inside throwMethod.");  
+              		throw new IllegalAccessException("demo");  
+      	}
+  
+      	public static void main(String args[]) 
+	{  
+           		try 
+			{  
+                 		throwMethod();  
+           		} 
+			catch (IllegalAccessException e) 
+			{  
+                 		System.out.println("Caught " + e);  
+           		}  
+       	}  
+}  
+(Choose correct one from multiple below)
+1. Compilation error
+2. Runtime error
+3. Compile successfully, nothing is printed.
+4. Inside throwMethod. followed by caught: java.lang.IllegalAccessExcption: demo
+correct is :1
+------------------------------------------------------------------------------
+Question No :59
+What will be printed when you execute the following code?
+
+class X 
+{
+	Y b = new Y();
+        	X() 
+	{ 
+		System.out.print("X"); 
+	}
+}
+
+class Y 
+{
+        	Y() 
+	{ 
+		System.out.print("Y"); 
+	}
+}
+
+public class Z extends X 
+{
+        	Y y = new Y();
+
+        	Z() 
+	{ 
+		System.out.print("Z"); 
+	}
+
+        	public static void main(String[] args) 
+	{
+                	new Z();
+        	}
+}
+
+(Choose correct one from multiple below)
+1. Z
+2. YZ
+3. XYZ
+4. YXYZ
+correct is :4
+------------------------------------------------------------------------------
+Question No :60
+What is the result when you compile and run the following code? 
+
+public class Test
+{
+
+	public void method()
+	{
+		for(int i = 0; i < 3; i++)
+        		{
+        			System.out.print(i);
+        		}
+        		System.out.print(i);
+	}
+}
+
+(Choose correct one from multiple below)
+1. 0122
+2. 0123
+3. Compilation error
+4. None of these
+correct is :3
+------------------------------------------------------------------------------
+Question No :61
+What will happen when you attempt to compile and run the following code?
+
+int Output = 10;
+boolean b1 = false;
+
+if((b1 == true) && ((Output += 10) == 20))
+{
+    System.out.println("We are equal " + Output);
+}
+
+else
+{
+    System.out.println("Not equal! " + Output);
+}
+(Choose correct one from multiple below)
+1. Compilation error, attempting to perform binary comparison on logical data type.
+2. Compilation and output of "We are equal 10". 
+3. Compilation and output of "Not equal! 20". 
+4. Compilation and output of "Not equal! 10".
+correct is :4
+------------------------------------------------------------------------------
+Question No :62
+What will be the result of executing the following code?
+Given that Test1 is a class.
+
+1. Test1[] t1 = new Test1[10];
+2. Test1[][] t2 = new Test1[5][];
+3. if (t1[0] == null)
+4. {
+5.	t2[0] = new Test1[10]	
+6.	t2[1] = new Test1[10]	
+7.	t2[2] = new Test1[10]	
+8.	t2[3] = new Test1[10]	
+9.	t2[4] = new Test1[10]	
+10. }
+11. System.out.println(t1[0]);
+12. System.out.println(t2[1][0]);
+
+(Choose correct one from multiple below)
+1. The code will not compile because the array t2 is not initialized in an unconditional statement before use.
+2. The code will compile but a runtime exception will be thrown at line 12.
+3. The code will compile but a runtime exception will be thrown at line 11.
+4. None of these.
+correct is :4
+------------------------------------------------------------------------------
+Question No :63
+What will happen when you attempt to compile and run the following code?
+
+class Base 
+{
+	int i = 99;
+
+	public void amethod()
+	{
+        		System.out.println("Base.amethod()");
+      	}
+      	Base()
+	{
+      			amethod();
+      	}
+}
+
+public class Derived extends Base
+{
+	int i = -1;
+        
+	public static void main(String argv[])
+	{
+      			Base b = new Derived();
+        		System.out.println(b.i);
+        		b.amethod();
+      	}
+	
+      	public void amethod()
+	{
+        		System.out.println("Derived.amethod()");
+      	}
+
+}
+(Choose correct one from multiple below)
+1. Derived.amethod() -1 Derived.amethod()
+2. Derived.amethod() 99
+3. Derived.amethod() 99
+4. Derived.amethod()
+correct is :2
+------------------------------------------------------------------------------
+Question No :64
+What will be the output on compiling/running the following code?
+
+	public class MyThread implements Runnable 
+ 	{ 
+   		String myString = "Yes "; 
+
+   		public void run() 
+   		{ 
+     			this.myString = "No "; 
+   		} 
+
+   		public static void main(String[] args) 
+   		{ 
+     			MyThread t = new MyThread(); 
+     			new Thread(t).start(); 
+
+     			for (int i=0; i < 10; i++) 
+      			System.out.print(t.myString); 
+   		} 
+ 	}
+(Choose correct one from multiple below)
+1. Compilation Error  
+2. Prints : Yes Yes Yes Yes Yes Yes Yes Yes Yes Yes and so on. 
+3. Prints : No No No No No No No No No No and so on. 
+4. The Output cannot be determined.
+correct is :4
+------------------------------------------------------------------------------
+Question No :65
+Multiple objects of MyClass (given below) are used in a program that uses 
+multiple Threadsto create new integer count. What will happen when other threads 
+use the following code? 
+
+	class MyClass
+	{
+		static private int myCount = 0;
+		int yourNumber;
+
+		private static synchronized int nextCount()
+		{
+			return ++myCount;
+		}
+		
+		public void getYourNumber()
+		{
+			yourNumber = nextCount();
+		}
+	}
+(Choose correct one from multiple below)
+1. The code will give compilation error.
+2. The code will give runtime error. 
+3. Each thread will get a unique number. 
+4. The uniqueness of the number among different Threads can't be guaranteed.
+correct is :3
+------------------------------------------------------------------------------
+Question No :66
+Which of the following lines will print false?
+
+1.	public class MyClass
+2.	{
+3.		static String s1 = "I am unique!";
+4.		public static void main(String args[])
+5.		{
+6.			String s2 = "I am unique!";
+7.			String s3 = new String(s1);
+8.			System.out.println(s1 == s2);
+9.			System.out.println(s1.equals(s2));
+10.			System.out.println(s3 == s1);
+11.			System.out.println(s3.equals(s1));
+12.			System.out.println(TestClass.s4 == s1);
+13.		}
+14.	}
+15.
+16.	class TestClass
+17.	{
+18.		static String s4 = "I am unique!";
+19.	}
+(Choose correct one from multiple below)
+1. Lines 10 and 12
+2. Line 12 only
+3. Line 8 and 10
+4. None of these
+correct is :4
+------------------------------------------------------------------------------
+Question No :67
+What is displayed when the following code is compiled and executed?
+
+String s1 = new String("Test");
+String s2 = new String("Test");
+
+if (s1==s2)
+          System.out.println("Same");
+
+if (s1.equals(s2))
+          System.out.println("Equals");
+
+(Choose correct one from multiple below)
+1. Same Equals
+2. Equals
+3. Same
+4. The code compiles, but nothing is displayed upon execution.
+correct is :2
+------------------------------------------------------------------------------
+Question No :68
+What is displayed when the following is executed?
+
+class Parent
+{
+	private void method1()
+	{
+		System.out.println("Parent's method1()");
+	}
+
+	public void method2()
+	{
+		System.out.println("Parent's method2()");
+		method1();
+	}
+
+}
+
+class Child extends Parent
+{
+	public void method1()
+	{
+		System.out.println("Child's method1()");		
+	}
+
+	public static void main(String args[])
+	{
+		Parent p = new Child();
+		p.method2();
+	}
+}
+
+(Choose correct one from multiple below)
+1. Compile time error 
+2. Run time error
+3. prints : Parent's method2()  Parent's method1()
+4. prints : Parent's method2() Child's method1()
+correct is :3
+------------------------------------------------------------------------------
+Question No :69
+How can you replace the comment at the end of main() with code that will write the 
+integers 0 through 9? 
+
+import java.io.*; 
+  
+class Write 
+{ 
+	public static void main(String[] args) throws Exception 
+	{ 
+		File file = new File("temp.test"); 
+		FileOutputStream stream = new FileOutputStream(file); 
+
+		// write integers here. . . 
+	}
+}
+Choices:
+1. DataOutputStream filter = new DataOutputStream(stream); 
+for (int i = 0; i < 10; i++) 
+{
+     	filter.writeInt(i); 
+}
+
+2. for (int i = 0; i < 10; i++) 
+{
+       	file.writeInt(i); 
+}
+
+3. for (int i = 0; i < 10; i++) 
+{
+      	stream.writeInt(i);
+}
+
+4. DataOutputStream filter = new DataOutputStream(stream); 
+for (int i = 0; i < 10; i++) 
+{
+	filter.write(i);
+}
+
+5. for (int i = 0; i < 10; i++) 
+{
+      	stream.write(i);
+}
+(Choose correct one from multiple below)
+1. 1,2
+2. 1
+3. 2
+4. 5
+correct is :2
+------------------------------------------------------------------------------
+Question No :70
+ What results from trying to compile and run the following code?
+
+1.	import java.io.*;
+2.
+3.	class MyClass
+4.	{
+5.		public static void main(String args[])
+6.		{
+7.			try
+8.			{
+9.				FileOutputStream fos = new FileOutputStream("abc");
+10.				DataOutputStream dos = new DataOutputStream(fos);
+11.				dos.writeByte(12);
+12.				fos.write(100);
+13.				fos.close();
+14.				dos.close();
+15.
+16.				FileInputStream fis = new FileInputStream("abc");
+17.				DataInputStream dis = new DataInputStream(fis);
+18.				byte b = dis.readByte();
+19.				System.out.print(b + " ");
+20.				int i = dis.readInt();
+21.				System.out.println(i);
+22.				fis.close();
+23.				dis.close();
+24.			}
+25.			catch(IOException e)
+26.			{
+27.				System.out.println("An exception occurred");
+28.			}
+29.		}
+30.	}
+
+(Choose correct one from multiple below)
+1. The output is 12 100 
+2. Compilation error at line 12 because once you chain a DataOutputStream onto the  FileOutputStream, you can't write directly to the FileOutputStream. 
+3. An exception occurs at Run time at line 20 because there are only two bytes written in the file "abc" and the code tries to read a byte and then an integer. 
+4. Compilation error occurs at line 20 because there are only two bytes written in the file "abc"  and the code tries to read a byte and then an integer.
+correct is :3
+------------------------------------------------------------------------------
+Question No :71
+What will happen when you attempt to compile and run the following code?
+
+public class MyThread extends Thread
+{
+	String myName;
+
+	MyThread(String name)
+	{
+		myName = name;
+	}
+
+	public void run()
+	{
+		for(int i=0; i<100;i++)
+		{
+			System.out.println(myName);
+		}
+	}
+
+	public static void main(String args[])
+	{
+		try
+		{
+			MyThread mt1 = new MyThread("mt1");
+			MyThread mt2 = new MyThread("mt2");
+			mt1.start();
+			// XXX
+			mt2.start();
+		}
+		catch(InterruptedException ex)
+		{
+		}
+	}
+}
+(Choose correct one from multiple below)
+1. The above code in its current condition will not compile. 
+2. In order to make the MyThread class prints "mt1" (100 times) followed by "mt2" (100 times), mt1.join(); can be placed at //XXX position. 
+3. In order to make the MyThread class prints "mt1" (100 times) followed by "mt2" (100 times), mt1.sleep(100); can be placed at //XXX position. 
+4. In order to make the MyThread class prints "mt1" (100 times) followed by "mt2" (100 times), mt1.run(); can be placed at //XXX position.
+correct is :1
+------------------------------------------------------------------------------
+Question No :72
+What will be printed to the standard output when the following program 
+is run and the Test button is pressed 3 times.
+
+import java.awt.*;
+import java.awt.event.*;
+
+public class ActionTest extends Frame
+{
+ 	public ActionTest()
+ 	{
+		Button test=new Button("Test");
+		add(test);
+		test.addActionListener(new ActionListener()
+		{ 
+			public void actionPerformed(ActionEvent e)
+			{
+				System.out.println("Clicked");
+				Button b=(Button)e.getSource();
+				b.addActionListener(new ActionListener()
+		 		{ 
+					public void actionPerformed(ActionEvent e)
+					{
+						System.out.println("Clicked again");
+					}
+		 		});
+			}
+		});
+
+		setSize(100,100);
+		setVisible(true);
+		setTitle("My Frame");
+      }
+
+	public static void main(String rgs[])
+ 	{
+		new ActionTest();
+ 	}
+}
+
+(Choose correct one from multiple below)
+1. Clicked Clicked again Clicked Clicked again Clicked Clicked again
+2. Clicked Clicked Clicked
+3. Clicked Clicked Clicked again Clicked Clicked again Clicked again 
+4. Clicked Clicked again
+correct is :3
+------------------------------------------------------------------------------
+Question No :73
+What will be output if you try to compile and run the following code, but there
+ is no file called Hello.txt in the current directory?
+ 
+import java.io.*;
+
+public class Test 
+{ 
+        	public static void main(String argv[])
+	{
+        		Test t = new Test(); 
+        		System.out.println(t.myMethod()); 
+	}
+
+	public int myMethod() 
+	{ 
+        		try 
+		{
+                		FileInputStream dis = new FileInputStream("Hello.txt"); 
+                	}
+		catch (FileNotFoundException fne) 
+		{ 
+                  		System.out.println("No such file found"); 
+                        		return -1; 
+                	}
+		catch(IOException ioe) 
+		{ 
+                	} 
+		finally
+		{ 
+        			System.out.println("Doing finally"); 
+        		} 
+        		return 0; 
+        	} 
+}
+(Choose correct one from multiple below)
+1. No such file found 
+2. No such file found , -1 
+3. No such file found, Doing finally, -1
+4. 0
+correct is :3
+------------------------------------------------------------------------------
+Question No :74
+What is the output?
+class Bird {
+	boolean b;
+	
+	  public Bird() {
+	  	  System.out.println(b);
+	  }
+public static void main(String[] args){
+Bird b = new Bird();
+}
+	}
+
+(Choose correct one from multiple below)
+1. true
+2. false
+3. garbage
+4. none of the above
+correct is :2
+------------------------------------------------------------------------------
+Question No :75
+What will happen when you attempt to compile and run this code?
+
+		public class MyMain{
+	public static void main(String argv){
+		System.out.println("Hello cruel world"); 
+		}
+	}
+(Choose correct one from multiple below)
+1. The compiler will complain that main is a reserved word and cannot be used for a class
+2. The code will compile and when run will print out "Hello cruel world"
+
+3. The code will compile but will complain at run time that no constructor is defined
+
+4. The code will compile but will complain at run time that main is not correctly defined
+correct is :4
+------------------------------------------------------------------------------
+Question No :76
+What can cause a thread to stop executing?
+
+1) The program exits via a call to System.exit(0);
+2) Another thread is given a higher priority
+3) A call to the thread's stop method.
+4) A call to the halt method of the Thread class?
+
+
+(Choose correct one from multiple below)
+1. 1,2,3
+2. 1,2
+3. 3,4
+4. 2,4
+correct is :1
+------------------------------------------------------------------------------
+Question No :77
+What will happen when you attempt to compile and run this code?
+
+		class Base{
+	public final void amethod(){ 
+		System.out.println("amethod");
+		}
+	}
+public class Fin extends Base{
+	public static void main(String argv[]){
+       Base b = new Base();
+       b.amethod(); 
+       }
+	}
+(Choose correct one from multiple below)
+1. Compile time error indicating that a class with any final methods must be declared final itself
+2. Compile time error indicating that you cannot inherit from a class with final methods
+3. Run time error indicating that Base is not defined as final
+
+4. Success in compilation and output of "amethod" at run time
+correct is :4
+------------------------------------------------------------------------------
+Question No :78
+Which of the following statements are true?
+
+1) At the root of the collection hierarchy is a class called Collection
+2) The collection interface contains a method called enumerator
+3) The interator method returns an instance of the Vector class
+4) The Set interface is designed for unique elements
+
+(Choose correct one from multiple below)
+1. 1
+2. 2
+3. 3
+4. 4
+correct is :4
+------------------------------------------------------------------------------
+Question No :79
+What best describes the appearance of an application with the following code?
+
+		import java.awt.*;
+public class FlowAp extends Frame{
+	public static void main(String argv[]){
+		FlowAp fa=new FlowAp();
+		fa.setSize(400,300); 
+		fa.setVisible(true);
+		}
+	FlowAp(){ 
+		add(new Button("One"));
+		add(new Button("Two")); 
+		add(new Button("Three")); 
+		add(new Button("Four"));
+   }//End of constructor}//End of Application
+}
+
+ 
+(Choose correct one from multiple below)
+1. A Frame with buttons marked One to Four placed on each edge.
+2. A Frame with buutons marked One to four running from the top to bottom
+3. A Frame with one large button marked Four in the Centre
+4. An Error at run time indicating you have not set a LayoutManager
+correct is :3
+------------------------------------------------------------------------------
+Question No :80
+What will happen when you attempt to compile and run this code?
+
+		abstract class Base{ 
+	abstract public void myfunc(); 
+	public void another(){ 
+		System.out.println("Another method");
+		}
+	}
+public class Abs extends Base{ 
+			public static void main(String argv[]){ 
+				Abs a = new Abs();
+				a.amethod(); 
+				} 
+			public void myfunc(){  
+				System.out.println("My Func");
+				}  
+			public void amethod(){ 
+				myfunc(); 
+				}
+			}
+(Choose correct one from multiple below)
+1. The code will compile and run, printing out the words "My Func"
+
+2. The compiler will complain that the Base class has non abstract methods
+3. The code will compile but complain at run time that the Base class has non abstract methods
+
+4. The compiler will complain that the method myfunc in the base class has no body, nobody at all to looove it
+correct is :1
+------------------------------------------------------------------------------
+Question No :81
+Under what circumstances might you use the yield method of the Thread class
+
+
+(Choose correct one from multiple below)
+1. To call from the currently running thread to allow another thread of the same or higher priority to run
+2. To call on a waiting thread to allow it to run
+3.  To allow a thread of higher priority to run
+4. To call from the currently running thread with a parameter designating which thread should be allowed to run
+
+correct is :1
+------------------------------------------------------------------------------
+Question No :82
+What will be output by the following line of code?
+
+System.out.println(010|4);
+
+(Choose correct one from multiple below)
+1. 12
+2. 10
+3. 11
+4. 14
+correct is :1
+------------------------------------------------------------------------------
+Question No :83
+Which of the following statements about threading are true
+
+1) You can only obtain a mutually exclusive lock on methods in a class that extends Thread or implements runnable
+2) You can obtain a mutually exclusive lock on any object
+3) A thread can obtain a mutually exclusive lock on an object by calling a synchronized method on that object.
+4) Thread scheduling algorithms are platform dependent
+
+(Choose correct one from multiple below)
+1. 2,3,4
+2. 1,2,3,4
+3. 1,3
+4. 3
+correct is :1
+------------------------------------------------------------------------------
+Question No :84
+For a class defined inside a method, what rule governs access to the variables of the enclosing method?
+
+
+(Choose correct one from multiple below)
+1. The class can access any variable
+2. The class can only access static variables
+3. The class can only access transient variables
+4. The class can only access final variables
+
+correct is :4
+------------------------------------------------------------------------------
+Question No :85
+Which of the following statements are true
+
+1) An inner class may be defined as static
+2) There are NO circumstances where an inner class may be defined as private
+3) A programmer may only provide one constructor for an anonymous class
+4) An inner class may extend another class
+
+(Choose correct one from multiple below)
+1. 1,4
+2. 2,4
+3. 1,3
+4. 2,3
+correct is :1
+------------------------------------------------------------------------------
+Question No :86
+What will happen when you attempt to compile and run the following code?
+
+		public class Bground extends Thread{
+	public static void main(String argv[]){
+		Bground b = new Bground();
+		b.run(); 
+		} 
+	public void start(){
+		for (int i = 0; i <10; i++){ 
+			System.out.println("Value of i = " + i); 
+			} 
+		}
+	}
+
+ 
+(Choose correct one from multiple below)
+1. A compile time error indicating that no run method is defined for the Thread class
+2.  A run time error indicating that no run method is defined for the Thread class
+3. Clean compile and at run time the values 0 to 9 are printed out
+4. Clean compile but no output at runtime
+correct is :4
+------------------------------------------------------------------------------
+Question No :87
+Which of the following methods are members of the Vector class and allow you to input a new element
+
+
+
+
+(Choose correct one from multiple below)
+1. addElement
+2. insert
+3. addItem
+4. None
+correct is :1
+------------------------------------------------------------------------------
+Question No :88
+Which of the following best describes the use of the synchronized keyword?
+
+ 
+
+
+(Choose correct one from multiple below)
+1. Allows two process to run in paralell but to communicate with each other
+2. Ensures only one thread at a time may access a method or object
+3. Ensures that two or more processes will start and end at the same time
+4. Ensures that two or more Threads will start and end at the same time
+correct is :2
+------------------------------------------------------------------------------
+Question No :89
+What will happen when you attempt to compile and run the following code
+
+public class Hope{
+	public static void main(String argv[]){
+		Hope h = new Hope();
+		} 
+	protected Hope(){
+		for(int i =0; i <10; i ++){
+			System.out.println(i);	
+			}  
+		}
+	}
+
+(Choose correct one from multiple below)
+1. Run time error: Constructors cannot be declared protected
+2. Compilation and running with output 0 to 9
+3. Compilation and running with output 0 to 10
+4. Compilation error: Constructors cannot be declared protected
+correct is :2
+------------------------------------------------------------------------------
+Question No :90
+Given the following main method in a class called Cycle and a command line of
+
+java Cycle one two
+what will be output?
+
+public static void main(String bicycle[]){        System.out.println(bicycle[0]);}
+
+(Choose correct one from multiple below)
+1. one 
+2. two
+3. NULL
+4. None
+correct is :1
+------------------------------------------------------------------------------
+Question No :91
+You want to find out the value of the last element of an array. You write the following code. What will happen when you compile and run it.?
+
+		public class MyAr{
+	public static void main(String argv[]){
+		int[] i = new int[5];
+		System.out.println(i[5]);
+		}
+	}
+(Choose correct one from multiple below)
+1. An error at compile time
+
+2. An error at run time
+3. The value 0 will be output
+4. The string "null" will be output
+
+correct is :2
+------------------------------------------------------------------------------
+Question No :92
+Which of the following statements are correct?
+
+1) If multiple listeners are added to a component only events for the last listener added will be processed
+2) If multiple listeners are added to a component the events will be processed for all but with no guarantee in the order
+3) Adding multiple listeners to a comnponent will cause a compile time error
+4) You may remove as well add listeners to a component.
+
+
+(Choose correct one from multiple below)
+1. 1 and 4
+2. 1,2 and 3
+3. 2 and 4
+4. 2 and 3
+correct is :3
+------------------------------------------------------------------------------
+Question No :93
+How do you indicate where a component will be positioned using Flowlayout?
+
+1) North, South,East,West
+2) Assign a row/column grid reference
+3) Pass a X/Y percentage parameter to the add method
+4) Do nothing, the FlowLayout will position the component
+
+(Choose correct one from multiple below)
+1. 1
+2. 2
+3. 3
+4. 4
+correct is :4
+------------------------------------------------------------------------------
+Question No :94
+Which most closely matches a description of a Java Map?
+
+ 
+
+
+(Choose correct one from multiple below)
+1. A vector of arrays for a 2D geographic representation
+2. A class for containing unique array elements
+3. A class for containing unique vector elements
+4. An interface that ensures that implementing classes cannot contain duplicate keys
+correct is :4
+------------------------------------------------------------------------------
+Question No :95
+What will happen when you attempt to compile and run the following code
+
+public class As{
+	int i = 10;
+	int j;
+	char z= 1; 
+	boolean b; 
+	public static void main(String argv[]){
+		As a = new As();
+		a.amethod();
+		} 
+	public void amethod(){
+		System.out.println(j);
+		System.out.println(b); 
+		}
+	}
+
+ 
+(Choose correct one from multiple below)
+1. Compilation succeeds and at run time an output of 0 and false
+2. Compilation succeeds and at run time an output of 0 and true
+3. Compile time error b is not initialised
+4. Compile time error z must be assigned a char value
+correct is :1
+------------------------------------------------------------------------------
+Question No :96
+Q.You want to loop through an array and stop when you come to the last element. Being a good java programmer and forgetting everything you ever knew about C/C++ you know that arrays contain information about their size. Which of the following can you use?
+
+
+(Choose correct one from multiple below)
+1. myarray.length();
+2. myarray.length;
+3. myarray.size
+4. myarray.size();
+correct is :2
+------------------------------------------------------------------------------
+Question No :97
+What will happen when you attempt to compile and run the following code with the command line "hello there"
+
+public class Arg{String[] MyArg; 
+public static void main(String argv[]){ 
+	MyArg=argv; 
+	} 
+public void amethod(){ 
+	System.out.println(argv[1]); 
+	}
+}
+
+ 
+(Choose correct one from multiple below)
+1. Compile time error
+2. Compilation and output of "hello"
+3. Compilation and output of "there"
+4. None of the above
+correct is :1
+------------------------------------------------------------------------------
+Question No :98
+Which of the following are methods of the Thread class?
+
+1) yield()
+2) sleep(long msec)
+3) go()
+4) stop()
+
+(Choose correct one from multiple below)
+1. 1,3,4
+2. 1,2,4
+3. 1,3
+4. 3
+correct is :2
+------------------------------------------------------------------------------
+Question No :99
+What will be output by the following line?
+
+System.out.println(Math.floor(-2.1));
+
+(Choose correct one from multiple below)
+1. -2.0
+2. -3.0
+3. 2.0
+4. 3.0
+correct is :2
+------------------------------------------------------------------------------
+Question No :100
+How does the set collection deal with duplicate elements?
+
+
+
+(Choose correct one from multiple below)
+1. An exception is thrown if you attempt to add an element with a duplicate value
+2. The add method returns false if you attempt to add an element with a duplicate value
+3. A set may contain elements that return duplicate values from a call to the equals method
+4. Duplicate values will cause an error at compile time
+correct is :2
+------------------------------------------------------------------------------
+Question No :101
+Given the folowing classes which of the following will compile without error?
+
+		interface IFace{}
+class CFace implements IFace{}
+class Base{}
+public class ObRef extends Base{ 
+	public static void main(String argv[]){
+		ObRef ob = new ObRef();
+		Base b = new Base();
+		Object o1 = new Object(); 
+		IFace o2 = new CFace();
+		}
+	}
+
+1)o1=o2;
+2)b=ob;
+3)ob=b;
+4)o1=b;
+
+(Choose correct one from multiple below)
+1. 1,2,4
+2. 2,3,4
+3. 1,3,4
+4. 3,4
+correct is :1
+------------------------------------------------------------------------------
